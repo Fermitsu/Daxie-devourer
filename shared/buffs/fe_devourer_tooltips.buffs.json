@@ -1,0 +1,199 @@
+{
+	"buffs": [
+		{
+			"id": "IM_AN_EXAMPLE_BUFF",
+			"stat_type": "",
+			"stat_sub_type": "",
+			"amount": 0,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "FIND_ME_IN_THE_BUFFS_FILE",
+			"stat_type": "",
+			"stat_sub_type": "",
+			"amount": 0,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "fede_feast_hunger_tt",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "fede_feast_hunger_TT",
+			"amount": -1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "fede_feast_hunger_tt_s",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "fede_feast_hunger_TTS",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "fede_feast_hunger_tt_s2",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "fede_feast_hunger_TTS2",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "fede_feast_heal_tt1",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "fede_feast_heal_TT1",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "fede_feast_heal_tt2",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "fede_feast_heal_TT2",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "fede_feast_heal_tt3",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "fede_feast_heal_TT3",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "fede_feast_heal_tt4",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "fede_feast_heal_TT4",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "fede_feast_heal_tt5",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "fede_feast_heal_TT5",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "fede_feast_heal_tt_double",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "fede_feast_heal_TTx2",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "fede_retch_heal_tt_corpse1",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "fede_retch_heal_TT1",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "fede_retch_heal_tt_corpse2",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "fede_retch_heal_TT2",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "fede_retch_heal_tt_corpse3",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "fede_retch_heal_TT3",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "fede_retch_heal_tt_corpse4",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "fede_retch_heal_TT4",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		}
+	]
+}

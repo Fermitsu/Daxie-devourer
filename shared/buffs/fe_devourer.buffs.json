@@ -1,0 +1,296 @@
+{
+   "buffs":
+   [	
+		{
+         "id" : "IM_AN_EXAMPLE_BUFF",
+         "stat_type" : "",
+         "stat_sub_type" : "",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+    },
+	{
+         "id" : "FIND_ME_IN_THE_BUFFS_FILE",
+         "stat_type" : "",
+         "stat_sub_type" : "",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+    },
+	{
+         "id" : "fede_feast_no_heal_blight",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+		 "has_description": false,
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "poisoned"
+         }
+    },
+	{
+         "id" : "fede_feast_no_heal_bleed",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "has_description": false,
+		 "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+    },
+	{
+         "id" : "fede_feast_heal_blight",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+		 "has_description": false,
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "poisoned"
+         }
+    },
+	{
+         "id" : "fede_feast_heal_bleed",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+		 "has_description": false,
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+    },
+	{
+         "id" : "fede_feast_no_heal_blight_anti",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+		 "has_description": false,
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "poisoned"
+         }
+    },
+	{
+         "id" : "fede_feast_no_heal_bleed_anti",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+		 "has_description": false,
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+    },
+	{
+         "id" : "fede_feast_heal_blight_anti",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+		 "has_description": false,
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "poisoned"
+         }
+    },
+	{
+         "id" : "fede_feast_heal_bleed_anti",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+		 "has_description": false,
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+    },
+	{
+         "id" : "fede_feast_hunger",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : 1,
+		 "has_description": false,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+    },
+	{
+         "id" : "fede_feast_food",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "eat",
+         "amount" : 0.5,
+		 "has_description": false,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+    },
+	{
+         "id" : "fede_retch_heal_1a",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "has_description": false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "corpse"
+         }
+    },
+	{
+         "id" : "fede_retch_heal_1b",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "has_description": false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "corpse"
+         }
+    },
+	{
+         "id" : "fede_retch_heal_1c",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "has_description": false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "corpse"
+         }
+    },
+	{
+         "id" : "fede_retch_heal_1d",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "has_description": false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : "corpse"
+         }
+    },
+	{
+         "id" : "fede_retch_heal_2a",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+		 "has_description": false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "corpse"
+         }
+    },
+	{
+         "id" : "fede_retch_heal_2b",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+		 "has_description": false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "corpse"
+         }
+    },
+	{
+         "id" : "fede_retch_heal_2c",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+		 "has_description": false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "corpse"
+         }
+    },
+	{
+         "id" : "fede_retch_heal_2d",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+		 "has_description": false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : "corpse"
+         }
+    },
+	{
+         "id" : "fede_retch_heal_dd",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.01,
+            "string" : ""
+         }
+    }
+   ]  
+}

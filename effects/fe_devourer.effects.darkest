@@ -1,0 +1,98 @@
+effect: .name "on_crit_example"    .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "IM_AN_EXAMPLE_BUFF" "FIND_ME_IN_THE_BUFFS_FILE" .duration 3	.on_hit true .on_miss false .apply_once true
+
+effect: .name "im_an_example_effect" .target "performer" .chance 100% .combat_stat_buff 1 .crit_chance_add 4% .on_hit true .on_miss true 
+
+effect: .name "find_me_in_the_effects_file" .target "performer" .chance 100%  .buff_ids "IM_AN_EXAMPLE_BUFF" "FIND_ME_IN_THE_BUFFS_FILE" .on_hit true .on_miss true 
+
+//Feast
+effect: .name "fede_feast_heal_buffs" 		.target "target" .chance 1000%  .buff_ids "fede_feast_no_heal_blight" "fede_feast_no_heal_bleed" "fede_feast_heal_blight" "fede_feast_heal_bleed" .on_hit true .on_miss false .duration 1 .buff_source_type bsrc_notspecified
+effect: .name "fede_feast_heal_effect_1" 	.target "target" .chance 100%  .heal_percent 0.12 .on_hit true .on_miss false .swap_source_and_target true .has_description false .can_apply_on_death true
+effect: .name "fede_feast_heal_effect_2" 	.target "target" .chance 100%  .heal_percent 0.14 .on_hit true .on_miss false .swap_source_and_target true .has_description false .can_apply_on_death true
+effect: .name "fede_feast_heal_effect_3" 	.target "target" .chance 100%  .heal_percent 0.16 .on_hit true .on_miss false .swap_source_and_target true .has_description false .can_apply_on_death true
+effect: .name "fede_feast_heal_effect_4" 	.target "target" .chance 100%  .heal_percent 0.18 .on_hit true .on_miss false .swap_source_and_target true .has_description false .can_apply_on_death true
+effect: .name "fede_feast_heal_effect_5" 	.target "target" .chance 100%  .heal_percent 0.2 .on_hit true .on_miss false .swap_source_and_target true .has_description false .can_apply_on_death true
+effect: .name "fede_feast_heal_buffs_anti" 	.target "target" .chance 1000%  .buff_ids "fede_feast_no_heal_blight_anti" "fede_feast_no_heal_bleed_anti" "fede_feast_heal_blight_anti" "fede_feast_heal_bleed_anti" .on_hit true .on_miss false .duration 1 .buff_source_type bsrc_notspecified
+
+effect: .name "fede_feast_hunger_tt" .target "performer" .chance 100%  .buff_ids "fede_feast_hunger_tt" .on_hit true .on_miss false .duration 1 .buff_duration_type "quest_end" .has_description false .buff_is_clear_debuff_valid false
+effect: .name "fede_feast_hunger" .target "performer" .chance 100%  .buff_ids "fede_feast_hunger" "fede_feast_food" .on_hit true .on_miss false .duration 1 .buff_duration_type "quest_end" .buff_source_type "bsrc_quest_failure" .has_description false .buff_is_clear_debuff_valid false
+effect: .name "fede_feast_hunger_steal" .target "performer" .chance 100%  .on_hit true .on_miss false .steal_buff_source_type "bsrc_quest_failure" .has_description false
+effect: .name "fede_feast_hunger_ttSkill_1" .target "performer" .chance 100%  .on_hit true .on_miss false .buff_ids"fede_feast_heal_tt_double" .skill_instant true
+effect: .name "fede_feast_hunger_ttSkill_1e" .target "performer" .chance 100%  .on_hit true .on_miss false .buff_ids "fede_feast_heal_tt5" .skill_instant true
+effect: .name "fede_feast_hunger_ttSkill_2" .target "performer" .chance 100%  .on_hit true .on_miss false .buff_ids "fede_feast_hunger_tt_s" "fede_feast_hunger_tt_s2" .skill_instant true
+
+//Noxious Gas
+effect: .name "fede_nox_debuff_SPD_1" 	.target "target" .chance 100%  .combat_stat_buff 1 .speed_rating_add -2 .keyStatus "poisoned" .duration 3 .on_hit true .on_miss false
+effect: .name "fede_nox_debuff_SPD_2" 	.target "target" .chance 110%  .combat_stat_buff 1 .speed_rating_add -2 .keyStatus "poisoned" .duration 3 .on_hit true .on_miss false
+effect: .name "fede_nox_debuff_SPD_3" 	.target "target" .chance 120%  .combat_stat_buff 1 .speed_rating_add -3 .keyStatus "poisoned" .duration 3 .on_hit true .on_miss false
+effect: .name "fede_nox_debuff_SPD_4" 	.target "target" .chance 130%  .combat_stat_buff 1 .speed_rating_add -3 .keyStatus "poisoned" .duration 3 .on_hit true .on_miss false
+effect: .name "fede_nox_debuff_SPD_5" 	.target "target" .chance 140%  .combat_stat_buff 1 .speed_rating_add -4 .keyStatus "poisoned" .duration 3 .on_hit true .on_miss false
+
+effect: .name "fede_nox_chemical_warfare_1" 	.target "target" .chance 100%  .dotPoison 1 .duration 2 .on_hit true .on_miss false
+effect: .name "fede_nox_chemical_warfare_2" 	.target "target" .chance 110%  .dotPoison 1 .duration 3 .on_hit true .on_miss false
+effect: .name "fede_nox_chemical_warfare_3" 	.target "target" .chance 120%  .dotPoison 2 .duration 3 .on_hit true .on_miss false
+effect: .name "fede_nox_chemical_warfare_4" 	.target "target" .chance 130%  .dotPoison 2 .duration 4 .on_hit true .on_miss false
+effect: .name "fede_nox_chemical_warfare_5" 	.target "target" .chance 140%  .dotPoison 3 .duration 4 .on_hit true .on_miss false
+
+//Cleave
+effect: .name "fede_cleave_bleed_1" 	.target "target" .chance 110%  .dotBleed 1 .duration 2 .on_hit true .on_miss false
+effect: .name "fede_cleave_bleed_2" 	.target "target" .chance 120%  .dotBleed 1 .duration 3 .on_hit true .on_miss false
+effect: .name "fede_cleave_bleed_3" 	.target "target" .chance 130%  .dotBleed 2 .duration 3 .on_hit true .on_miss false
+effect: .name "fede_cleave_bleed_4" 	.target "target" .chance 140%  .dotBleed 2 .duration 3 .on_hit true .on_miss false
+effect: .name "fede_cleave_bleed_5" 	.target "target" .chance 150%  .dotBleed 3 .duration 3 .on_hit true .on_miss false
+
+//Restrict
+effect: .name "fede_restrict_stun_1" 	.target "target" .chance 80%  .stun 1 .duration 1 .on_hit true .on_miss false
+effect: .name "fede_restrict_stun_2" 	.target "target" .chance 90%  .stun 1 .duration 1 .on_hit true .on_miss false
+effect: .name "fede_restrict_stun_3" 	.target "target" .chance 100%  .stun 1 .duration 1 .on_hit true .on_miss false
+effect: .name "fede_restrict_stun_4" 	.target "target" .chance 110%  .stun 1 .duration 1 .on_hit true .on_miss false
+effect: .name "fede_restrict_stun_5" 	.target "target" .chance 120%  .stun 1 .duration 1 .on_hit true .on_miss false
+
+effect: .name "fede_restrict_bleed_1" 	.target "target" .chance 90%  .dotBleed 1 .duration 2 .on_hit true .on_miss false
+effect: .name "fede_restrict_bleed_2" 	.target "target" .chance 100%  .dotBleed 1 .duration 3 .on_hit true .on_miss false
+effect: .name "fede_restrict_bleed_3" 	.target "target" .chance 110%  .dotBleed 2 .duration 3 .on_hit true .on_miss false
+effect: .name "fede_restrict_bleed_4" 	.target "target" .chance 120%  .dotBleed 2 .duration 3 .on_hit true .on_miss false
+effect: .name "fede_restrict_bleed_5" 	.target "target" .chance 130%  .dotBleed 3 .duration 3 .on_hit true .on_miss false
+
+//Artery Pull
+effect: .name "fede_arterty_bleed_1" 	.target "target" .chance 100%  .dotBleed 2 .duration 3 .on_hit true .on_miss false
+effect: .name "fede_arterty_bleed_2" 	.target "target" .chance 110%  .dotBleed 2 .duration 3 .on_hit true .on_miss false
+effect: .name "fede_arterty_bleed_3" 	.target "target" .chance 120%  .dotBleed 3 .duration 3 .on_hit true .on_miss false
+effect: .name "fede_arterty_bleed_4" 	.target "target" .chance 130%  .dotBleed 4 .duration 3 .on_hit true .on_miss false
+effect: .name "fede_arterty_bleed_5" 	.target "target" .chance 140%  .dotBleed 4 .duration 3 .on_hit true .on_miss false
+
+effect: .name "fede_arterty_pull_1" .target "target" .chance 90%  .pull 1 .on_hit true .on_miss false
+effect: .name "fede_arterty_pull_2" .target "target" .chance 100% .pull 1 .on_hit true .on_miss false
+effect: .name "fede_arterty_pull_3" .target "target" .chance 110% .pull 1 .on_hit true .on_miss false
+effect: .name "fede_arterty_pull_4" .target "target" .chance 120% .pull 1 .on_hit true .on_miss false
+effect: .name "fede_arterty_pull_5" .target "target" .chance 130% .pull 1 .on_hit true .on_miss false
+
+//Retch
+effect: .name "fede_retch_heal_1a" .target "performer" .chance 100% .buff_ids "fede_retch_heal_1a" .on_hit true .on_miss false .skill_instant true
+effect: .name "fede_retch_heal_1b" .target "performer" .chance 100% .buff_ids "fede_retch_heal_1b" .on_hit true .on_miss false .skill_instant true
+effect: .name "fede_retch_heal_1c" .target "performer" .chance 100% .buff_ids "fede_retch_heal_1c" .on_hit true .on_miss false .skill_instant true
+effect: .name "fede_retch_heal_1d" .target "performer" .chance 100% .buff_ids "fede_retch_heal_1d" .on_hit true .on_miss false .skill_instant true
+effect: .name "fede_retch_heal_2a" .target "performer" .chance 100% .buff_ids "fede_retch_heal_2a" .on_hit true .on_miss false .skill_instant true
+effect: .name "fede_retch_heal_2b" .target "performer" .chance 100% .buff_ids "fede_retch_heal_2b" .on_hit true .on_miss false .skill_instant true
+effect: .name "fede_retch_heal_2c" .target "performer" .chance 100% .buff_ids "fede_retch_heal_2c" .on_hit true .on_miss false .skill_instant true
+effect: .name "fede_retch_heal_2d" .target "performer" .chance 100% .buff_ids "fede_retch_heal_2d" .on_hit true .on_miss false .skill_instant true
+
+effect: .name "fede_retch_heal_dd" .target "performer" .chance 100% .buff_ids "fede_retch_heal_dd" .on_hit true .on_miss false .skill_instant true .has_description false
+
+effect: .name "fede_retch_corpse" .target "target_enemy_group" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss true .queue false .can_apply_on_death true .has_description false
+effect: .name "fede_retch_stress" .target "target" .chance 100% .stress 6 .on_hit true .on_miss false
+effect: .name "fede_retch_tooltip_1" .target "performer" .chance 100%  .on_hit true .on_miss false .buff_ids"fede_retch_heal_tt_corpse1" .skill_instant true
+effect: .name "fede_retch_tooltip_2" .target "performer" .chance 100%  .on_hit true .on_miss false .buff_ids"fede_retch_heal_tt_corpse2" .skill_instant true
+effect: .name "fede_retch_tooltip_3" .target "performer" .chance 100%  .on_hit true .on_miss false .buff_ids"fede_retch_heal_tt_corpse3" .skill_instant true
+effect: .name "fede_retch_tooltip_4" .target "performer" .chance 100%  .on_hit true .on_miss false .buff_ids"fede_retch_heal_tt_corpse4" .skill_instant true
+
+//Survival Above All
+effect: .name "fede_surv_regen_1" 	.target "performer" .chance 100%  .dotHpHeal 1 .duration 2 .on_hit true .on_miss false
+effect: .name "fede_surv_regen_2" 	.target "performer" .chance 100%  .dotHpHeal 2 .duration 2 .on_hit true .on_miss false
+effect: .name "fede_surv_regen_3" 	.target "performer" .chance 100%  .dotHpHeal 2 .duration 3 .on_hit true .on_miss false
+
+effect: .name "fede_surv_buffs_1" 	.target "target" .chance 100%  .combat_stat_buff 1 .protection_rating_add 0.17 .defense_rating_add 0.06 .duration 3 .on_hit true .on_miss false
+effect: .name "fede_surv_buffs_2" 	.target "target" .chance 100%  .combat_stat_buff 1 .protection_rating_add 0.19 .defense_rating_add 0.07 .duration 3 .on_hit true .on_miss false
+effect: .name "fede_surv_buffs_3" 	.target "target" .chance 100%  .combat_stat_buff 1 .protection_rating_add 0.21 .defense_rating_add 0.08 .duration 3 .on_hit true .on_miss false
+effect: .name "fede_surv_buffs_4" 	.target "target" .chance 100%  .combat_stat_buff 1 .protection_rating_add 0.23 .defense_rating_add 0.09 .duration 3 .on_hit true .on_miss false
+effect: .name "fede_surv_buffs_5" 	.target "target" .chance 100%  .combat_stat_buff 1 .protection_rating_add 0.25 .defense_rating_add 0.1  .duration 3 .on_hit true .on_miss false
+

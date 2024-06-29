@@ -1,0 +1,130 @@
+{
+	"buffs": [
+		{
+			"id": "fe_devourer_PSN_KEY_AXA1",
+			"stat_type": "debuff_chance",
+			"stat_sub_type": "",
+			"amount": 20,
+			"has_description": false,
+			"remove_if_not_active": false,
+			"rule_type": "is_actor_status",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "poisoned"
+			}
+		},
+		{
+			"id": "fe_devourer_PSN_KEY",
+			"stat_type": "poison_chance",
+			"stat_sub_type": "",
+			"amount": 50,
+			"has_description": false,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "fe_devourer_s0hpr_A"
+			}
+		},
+		{
+			"id": "fe_devourer_PSN_KEY_AXA2",
+			"stat_type": "debuff_chance",
+			"stat_sub_type": "",
+			"amount": -20,
+			"has_description": false,
+			"remove_if_not_active": false,
+			"rule_type": "is_actor_status",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "poisoned"
+			}
+		},
+		{
+			"id": "fe_devourer_BLD_KEY_AXA1",
+			"stat_type": "debuff_chance",
+			"stat_sub_type": "",
+			"amount": 20,
+			"has_description": false,
+			"remove_if_not_active": false,
+			"rule_type": "is_actor_status",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "bleeding"
+			}
+		},
+		{
+			"id": "fe_devourer_BLD_KEY",
+			"stat_type": "bleed_chance",
+			"stat_sub_type": "",
+			"amount": 50,
+			"has_description": false,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "fe_devourer_s0hpr_A"
+			}
+		},
+		{
+			"id": "fe_devourer_BLD_KEY_AXA2",
+			"stat_type": "debuff_chance",
+			"stat_sub_type": "",
+			"amount": -20,
+			"has_description": false,
+			"remove_if_not_active": false,
+			"rule_type": "is_actor_status",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "bleeding"
+			}
+		},
+		{
+			"id": "fe_devourer_4XBOOL_PSN_DMGREC",
+			"stat_type" : "damage_received_percent",
+			"stat_sub_type" : "",
+			"amount": -0.19,
+			"has_description" : true,
+			"remove_if_not_active": false,
+			"rule_type" : "is_actor_status",
+			"is_false_rule" : false,
+			"rule_data" : {
+			   "float" : 0,
+			   "string": "poisoned"
+			}
+		 },
+		 {
+			"id": "fe_devourer_4XBOOL_BLD_DMGREC",
+			"stat_type" : "damage_received_percent",
+			"stat_sub_type" : "",
+			"amount": -0.39,
+			"has_description" : true,
+			"remove_if_not_active": false,
+			"rule_type" : "is_actor_status",
+			"is_false_rule" : false,
+			"rule_data" : {
+			   "float" : 0,
+			   "string": "bleeding"
+			}
+		 },
+		 {
+			"id": "fe_devourer_4XBOOL_BASE_DMGREC",
+			"stat_type" : "damage_received_percent",
+			"stat_sub_type" : "",
+			"amount": -0.10,
+			"has_description" : true,
+			"remove_if_not_active": false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : {
+			   "float" : 0,
+			   "string": ""
+			}
+		 }
+	]
+}

@@ -1,0 +1,55 @@
+//---- - - - - - - - --------------------------------------------------------------------------------------------
+//-- ~-~ Effects ~-~ --------------------------------------------------------------------------------------------
+//---- - - - - - - - --------------------------------------------------------------------------------------------
+//---- - - - - - - - --------------------------------------------------------------------------------------------
+//==========================================================================================================================================================================
+//General s0hpr effects
+//DMG received buffs to control which HP reaction gets triggered
+effect: .name "fe_devourer_4xbool_psn_dmgrec"   .target "performer"        .chance 5000%  .buff_ids "fe_devourer_4XBOOL_PSN_DMGREC" .on_hit true .on_miss false .has_description false .buff_source_type bsrc_quest_modifier
+effect: .name "fe_devourer_4xbool_bld_dmgrec"   .target "performer"        .chance 5000%  .buff_ids "fe_devourer_4XBOOL_BLD_DMGREC" .on_hit true .on_miss false .has_description false .buff_source_type bsrc_quest_modifier
+//Base DMG rec prevents the s0hpr from killing itself with health damage (causes a combat slowdown if that would happen)
+effect: .name "fe_devourer_4xbool_base_dmgrec"  .target "performer"        .chance 5000%  .buff_ids "fe_devourer_4XBOOL_BASE_DMGREC" .on_hit true .on_miss false .has_description false .buff_source_type bsrc_quest_modifier
+
+//Stabci Bleed and Blight effects. s0hpr swaps source against hero
+effect: .name "fe_devourer_4xbool_s0hpr_bld"    .target "target" 			.chance -4000% .dotBleed 1  .duration 3 .swap_source_and_target true .on_hit true .on_miss false .has_description false .dotSource bsrc_quest_modifier .apply_once false .spawn_target_actor_base_class_id fe_devourer
+effect: .name "fe_devourer_4xbool_s0hpr_psn"    .target "target" 			.chance -4000% .dotPoison 1 .duration 3 .swap_source_and_target true .on_hit true .on_miss false .has_description false .dotSource bsrc_quest_modifier .apply_once false .spawn_target_actor_base_class_id fe_devourer
+
+//s0hpr damages itself
+effect: .name "fe_devourer_4xbool_s0hpr_dmg"    .target "performer"        .chance 5000%  .health_damage 100 .on_hit true .on_miss true .has_description false .apply_with_result  true
+//s0hpr heals itself to trigger a HP reaction based on the current HP
+effect: .name "fe_devourer_4xbool_s0hpr_heal"   .target "performer"        .chance 5000%  .heal 2            .on_hit true .on_miss true .has_description false .can_crit_heal false
+//==========================================================================================================================================================================
+
+
+//==========================================================================================================================================================================
+//Key and AX-As - these belong on the hero skill (in the order from top to bottom)
+effect: .name "fe_devourer_psn_axa1" .target "target" .chance 1000% .duration 1 .buff_ids "fe_devourer_PSN_KEY_AXA1" .on_hit true .on_miss true .buff_source_type bsrc_notspecified .has_description false .apply_with_result true
+effect: .name "fe_devourer_psn_key"  .target "target" .chance -1000% .duration 1 .swap_source_and_target true .buff_ids "fe_devourer_PSN_KEY" .on_hit true .on_miss true .buff_source_type bsrc_notspecified .has_description false .apply_with_result true
+effect: .name "fe_devourer_psn_axa2" .target "target" .chance 1000% .duration 1 .buff_ids "fe_devourer_PSN_KEY_AXA2" .on_hit true .on_miss true .buff_source_type bsrc_notspecified .has_description false .apply_with_result true
+
+effect: .name "fe_devourer_bld_axa1" .target "target" .chance 1000% .duration 1 .buff_ids "fe_devourer_BLD_KEY_AXA1" .on_hit true .on_miss true .buff_source_type bsrc_notspecified .has_description false .apply_with_result true
+effect: .name "fe_devourer_bld_key"  .target "target" .chance -1000% .duration 1 .swap_source_and_target true .buff_ids "fe_devourer_BLD_KEY" .on_hit true .on_miss true .buff_source_type bsrc_notspecified .has_description false .apply_with_result true
+effect: .name "fe_devourer_bld_axa2" .target "target" .chance 1000% .duration 1 .buff_ids "fe_devourer_BLD_KEY_AXA2" .on_hit true .on_miss true .buff_source_type bsrc_notspecified .has_description false .apply_with_result true
+//==========================================================================================================================================================================
+
+//==========================================================================================================================================================================
+//s0hpr that checks keys - belongs on hero skill (after key/axas)
+effect: .name "fe_devourer_s0hpr_summ_A"  			.target "target_enemy_group" .chance 500% .summon_count 1 .summon_monsters "fe_devourer_s0hpr_A" .summon_chances 1.0 .summon_limits 1 .summon_ranks 0 .on_hit true .on_miss false .has_description false .summon_can_spawn_loot false .apply_with_result true
+effect: .name "fe_devourer_4xbool_s0hpr_A_die"    	.target "performer" 		.chance 1000%  .kill_enemy_types "fe_devourer_s0hpr_A" 	.on_hit true .on_miss false .has_description false
+
+//s0 that stabcis heal on hero
+effect: .name "fe_devourer_s0hpr_summ_0"  			.target "target_enemy_group" .chance 500% .summon_count 1 .summon_monsters "fe_devourer_s0hpr_0" .summon_chances 1.0 .summon_limits 1 .summon_ranks 0 .on_hit true .on_miss false .has_description false .summon_can_spawn_loot false .apply_with_result true
+effect: .name "fe_devourer_stabci_heal20"    		.target "target"  .chance 100% .heal_percent 0.20  .on_hit true .on_miss false .has_description false .spawn_target_actor_base_class_id fe_devourer
+effect: .name "fe_devourer_4xbool_s0hpr_0_die"    	.target "performer" 		.chance 1000%  .kill_enemy_types "fe_devourer_s0hpr_0" 	.on_hit true .on_miss false .has_description false
+
+//s0 that stabcis stronger heal on hero
+effect: .name "fe_devourer_s0hpr_summ_1"  			.target "target_enemy_group" .chance 500% .summon_count 1 .summon_monsters "fe_devourer_s0hpr_1" .summon_chances 1.0 .summon_limits 1 .summon_ranks 0 .on_hit true .on_miss false .has_description false .summon_can_spawn_loot false .apply_with_result true
+effect: .name "fe_devourer_stabci_heal40"  			.target "target"  .chance 100% .heal_percent 0.40  .on_hit true .on_miss false .has_description false .spawn_target_actor_base_class_id fe_devourer
+effect: .name "fe_devourer_4xbool_s0hpr_1_die"    	.target "performer" 		.chance 1000%  .kill_enemy_types "fe_devourer_s0hpr_1" 	.on_hit true .on_miss false .has_description false
+//==========================================================================================================================================================================
+
+
+
+//hp reaction tester
+effect: .name "dd2_hot_test1"        .target "target_enemy_group"    .chance 2000% .dotHpHeal 1  .duration 4 .on_hit true .on_miss false
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

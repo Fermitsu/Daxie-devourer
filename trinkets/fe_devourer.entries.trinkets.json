@@ -1,0 +1,21 @@
+{
+   "entries":
+   [
+	  	{
+         "id" : "example_trinket",
+         "buffs" : 
+         [
+            "IM_AN_EXAMPLE_BUFF",
+			"FIND_ME_IN_THE_BUFFS_FILE"
+         ],
+         "hero_class_requirements":
+         [
+            "fe_devourer"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      }  
+   ]
+}

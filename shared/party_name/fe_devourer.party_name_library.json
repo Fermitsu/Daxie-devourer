@@ -1,0 +1,9 @@
+{
+    "party_names":
+    [
+  {
+    "id": "1234",
+    "required_hero_class": [ "arbalest", "plague_doctor", "fe_devourer", "crusader" ]
+  }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+	"buffs": [
+		{
+			"id": "fede_camp_feeling_scout",
+			"stat_type": "scouting_chance",
+			"stat_sub_type": "",
+			"amount": 0.1,
+			"duration": 4,
+			"duration_type": "combat_end",
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "fede_camp_hunger_prot",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.1,
+			"duration": 4,
+			"duration_type": "combat_end",
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "fede_camp_phero_stress",
+			"stat_type": "stress_dmg_received_percent",
+			"stat_sub_type": "",
+			"amount": -0.1,
+			"duration": 4,
+			"duration_type": "combat_end",
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		}
+	]
+}

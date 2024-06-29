@@ -1,0 +1,40 @@
+display: .size 0
+display_modifier: .show_spawn_fx false
+display_modifier: .disabled_popup_text_types no_damage damage hero_heal
+display_modifier: .disabled_popup_text_types monster_heal buff debuff poison
+display_modifier: .disabled_popup_text_types bleed cured tagged stun 
+display_modifier: .disabled_popup_text_types poison_resist cured tagged stun_resist 
+display_modifier: .disabled_popup_text_types bleed_resist debuff_resist
+
+enemy_type: .id "fe_devourer_s0hpr_A"
+stats: .hp 100 .def 0% .prot 0 .spd 1 .stun_resist 0% .poison_resist 0% .bleed_resist 0% .debuff_resist 0% .move_resist 0%
+personality: .prefskill -1
+loot: 
+initiative: .number_of_turns_per_round 0
+monster_brain: .id default
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise false .can_be_surprised True .always_surprise False .always_be_surprised False .can_be_summon_rank True
+
+//Iris NG+ and increase enemy HP patch
+spawn: .effects s0hpr_patch_anti_ng
+
+//The full s0hpr 5 star menu
+spawn: .effects "fe_devourer_4xbool_base_dmgrec" "fe_devourer_4xbool_bld_dmgrec" "fe_devourer_4xbool_psn_dmgrec"
+spawn: .effects "fe_devourer_4xbool_s0hpr_bld" "fe_devourer_4xbool_s0hpr_psn"
+spawn: .effects "fe_devourer_4xbool_s0hpr_dmg" 
+spawn: .effects "fe_devourer_4xbool_s0hpr_heal"
+spawn: .effects "fe_devourer_4xbool_s0hpr_A_die"
+
+//Both PSN and BLD key on hero
+hp_reaction: .hp_ratio 0.69 .is_under false .effects "fe_devourer_s0hpr_summ_1" 
+
+//BLD key on hero
+hp_reaction: .hp_ratio 0.50 .is_under false .effects "fe_devourer_s0hpr_summ_0"
+
+//PSN key on hero
+hp_reaction: .hp_ratio 0.30 .is_under false .effects "fe_devourer_s0hpr_summ_0" 
+
+//No key on hero
+hp_reaction: .hp_ratio 0.11 .is_under false .effects "fe_devourer_4xbool_s0hpr_A_die"
+
+
+

@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <language id="english">
+	<!--Table of contents (Use control+F to look through these easily)-->
+	<!--Tooltip updates-->
+	
+	<!-- Techincal Tooltips -->
+	<!-- Mode tooltips -->
+	
+	<!-- Class details -->
+	<!-- Skills -->
+	<!-- Technical Tooltips - Skills -->
+	<!-- Town Events -->
+	
+	<!-- Trinkets -->
+	<!-- Equipment -->
+	
+	<!-- Party Restriction Barks -->
+	<!-- Camping Skill Barks -->
+	<!-- Crit Barks -->
+	<!-- Moving -->
+	<!-- Light -->
+	<!-- Taking Damage/DoTs -->
+	<!-- Heart Attack -->
+	<!-- Death's Door -->
+	<!-- Stress -->
+	<!-- Town Activities -->
+	<!-- Roster -->
+	
+	<!-- AFFLICTIONS -->
+	<!-- Abusive -->
+	<!-- Depressed -->
+	<!-- Fearful -->
+	<!-- Irrational -->
+	<!-- Masochistic -->
+	<!-- Paranoid -->
+	<!-- Selfish -->
+	
+	<!-- VIRTUED -->
+	<!-- Courageous -->
+	<!-- Focused -->
+	<!-- Powerful -->
+	<!-- Stalwart -->
+	<!-- Vigorous -->
+	
+	<!-- Party names -->
+	<!-- Crimson Court -->
+	<!-- Monster Attacks -->
+	<!-- Cross Mod barks -->
+	
+	<!--END OF TABLE-->
+	
+	
+	<!--Tooltip Updates -->
+	
+	
+	<!-- Technical Tooltips -->
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="tray_icon_tooltip_buff_duration_after_round_format"><![CDATA[%s (For %d Full Rounds)]]></entry>
+    <entry id="buff_rule_tooltip_torch_setting"><![CDATA[%s %s]]></entry>
+    <entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s vs not %s]]></entry>
+    <entry id="buff_rule_tooltip_target_hpabove"><![CDATA[{?buff}%s vs HP above {?hpthreshold}%d%%]]></entry>
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[On Monster Kill:]]></entry>
+	
+	<!-- Mode tooltips -->
+	<entry id="str_skill_mode_info_fe_de_default"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ ]]></entry>
+	<entry id="str_skill_mode_info_fe_de_placeholder1"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ ]]></entry>
+	<entry id="str_skill_mode_info_fe_de_placeholder2"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ ]]></entry>
+	<entry id="str_skill_mode_info_fe_de_placeholder3"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ ]]></entry>
+	<entry id="str_skill_mode_info_fe_de_placeholder4"><![CDATA[{colour_start|fede_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<!-- Class Details -->
+	<entry id="hero_class_name_fe_devourer"><![CDATA[Devourer]]></entry>
+
+	<entry id="action_verbose_body_blacksmith_fe_devourer"><![CDATA[work]]></entry>
+	<entry id="action_verbose_body_guild_fe_devourer"><![CDATA[ing]]></entry>
+	<entry id="action_verbose_body_camping_trainer_fe_devourer"><![CDATA[for the weekend]]></entry>
+
+   <!-- Skills -->
+    <entry id="combat_skill_name_fe_devourer_move"><![CDATA[Move]]></entry>
+
+    <entry id="combat_skill_name_fe_devourer_fe_de_feast"><![CDATA[Feast]]></entry>
+    <entry id="combat_skill_name_fe_devourer_fe_de_nox"><![CDATA[Noxious Gas]]></entry>
+    <entry id="combat_skill_name_fe_devourer_fe_de_cleave"><![CDATA[Cleave Heart]]></entry>
+    <entry id="combat_skill_name_fe_devourer_fe_de_restrict"><![CDATA[Restrict]]></entry>
+    <entry id="combat_skill_name_fe_devourer_fe_de_artery"><![CDATA[Artery Pull]]></entry>
+    <entry id="combat_skill_name_fe_devourer_fe_de_retch"><![CDATA[ {colour_start|healhp}¤ ¤ ¤ ¤{colour_end}
+Retch]]></entry>
+    <entry id="combat_skill_name_fe_devourer_fe_de_surv"><![CDATA[Survival Above all]]></entry>
+
+    <entry id="upgrade_tree_name_fe_devourer_fe_de_feast"><![CDATA[Feast]]></entry>
+    <entry id="upgrade_tree_name_fe_devourer_fe_de_nox"><![CDATA[Noxious Gas]]></entry>
+    <entry id="upgrade_tree_name_fe_devourer_fe_de_cleave"><![CDATA[Cleave Heart]]></entry>
+    <entry id="upgrade_tree_name_fe_devourer_fe_de_restrict"><![CDATA[Restrict]]></entry>
+    <entry id="upgrade_tree_name_fe_devourer_fe_de_artery"><![CDATA[Artery Pull]]></entry>
+    <entry id="upgrade_tree_name_fe_devourer_fe_de_retch"><![CDATA[ {colour_start|healhp}¤ ¤ ¤ ¤{colour_end}
+Retch]]></entry>
+    <entry id="upgrade_tree_name_fe_devourer_fe_de_surv"><![CDATA[Survival Above all]]></entry>
+
+	<!--Techincal Tooltips - Skills -->
+	<entry id="buff_stat_tooltip_upgrade_discount_fede_feast_heal_TT5"><![CDATA[{colour_start|healhp}Heal{colour_end} 20%% max HP vs {colour_start|bleed}Bleeding{colour_end} / {colour_start|blight}Blight{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_fede_feast_heal_TTx2"><![CDATA[{colour_start|skill_unselectable}(Healing is doubed vs Bleeding & Blight Target){colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_fede_feast_hunger_TT"><![CDATA[Insatiable]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_fede_feast_hunger_TTS"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+	{colour_start|notable}Insatiable:{colour_end}]]></entry>
+	 <entry id="buff_stat_tooltip_upgrade_discount_fede_feast_hunger_TTS2"><![CDATA[{colour_start|skill_unselectable}+100%% Food Consumed 
+	 +50%% Healing from Food 
+	 (Quest / Cannot Stack){colour_end} {colour_start|fede_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end} ]]></entry>
+
+ 	 <entry id="buff_stat_tooltip_upgrade_discount_fede_retch_heal_TT1"><![CDATA[+1{colour_start|healhp} Healing{colour_end} Done per Corpse]]></entry>
+ 	 <entry id="buff_stat_tooltip_upgrade_discount_fede_retch_heal_TT2"><![CDATA[+2{colour_start|healhp} Healing{colour_end} Done per Corpse]]></entry>
+ 	 <entry id="buff_stat_tooltip_upgrade_discount_fede_retch_heal_TT3"><![CDATA[+100%% {colour_start|healhp}Healing{colour_end} Done vs {colour_start|deathdoor}Death's Door{colour_end}]]></entry>
+ 	 <entry id="buff_stat_tooltip_upgrade_discount_fede_retch_heal_TT4"><![CDATA[Clear all Corpses {colour_start|fede_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end} ]]></entry>
+
+	<!-- Town Events -->
+
+	<entry id="town_event_title_fe_devourer_first"><![CDATA[Woodland Murmurs]]></entry>
+	<entry id="town_event_description_fe_devourer_first"><![CDATA[filler abt event or smt lmao]]></entry>
+
+	<!-- Trinkets -->
+
+	<!-- Equipment -->
+
+	<entry id="fe_devourer_weapon_0"><![CDATA[Toothpicks Strings]]></entry>
+	<entry id="fe_devourer_weapon_1"><![CDATA[Shivs and Rope]]></entry>
+	<entry id="fe_devourer_weapon_2"><![CDATA[Daggers and Wire]]></entry>
+	<entry id="fe_devourer_weapon_3"><![CDATA[Knives and Chain]]></entry>
+	<entry id="fe_devourer_weapon_4"><![CDATA["Chompa 'n' Gnasha"]]></entry>
+	<entry id="upgrade_tree_name_fe_devourer.weapon"><![CDATA[Chained Daggers]]></entry>
+    <entry id="fe_devourer_armour_0"><![CDATA[Tattered Rags]]></entry>
+	<entry id="fe_devourer_armour_1"><![CDATA[Dirtied Cloths]></entry> 
+    <entry id="fe_devourer_armour_2"><![CDATA[Herbal Bandages]]></entry>
+    <entry id="fe_devourer_armour_3"><![CDATA[Ancestral War Wraps]]></entry>
+    <entry id="fe_devourer_armour_4"><![CDATA["Liberty in Blood"]]></entry>
+    <entry id="upgrade_tree_name_fe_devourer.armour"><![CDATA[Wrappings]]></entry>
+	
+	<!-- Party Restriction Barks -->
+	
+	<entry id= "str_incompatible_party_member_fe_devourer_limit"><![CDATA[abcdefg]]></entry>
+	<entry id= "str_incompatible_party_member_fe_devourer_limit"><![CDATA[abcdefg]]></entry>
+	<entry id= "str_incompatible_party_member_fe_devourer_limit"><![CDATA[abcdefg]]></entry>
+	
+	<!-- Camping Skill Barks -->
+	<entry id="camping_skill_name_fede_feeling"><![CDATA[RESOLVE PENT UP FEELINGS]]></entry>
+	<entry id="camping_skill_name_fede_hunger"><![CDATA[SATIATE HUNGER]]></entry>
+	<entry id="camping_skill_name_fede_phero"><![CDATA[ALLURING PHEROMONES]]></entry>
+	<entry id="camping_skill_name_fede_recycle"><![CDATA[RECYLCLE REGURGITATE]]></entry>
+	
+	<entry id="camping_skill_effect_loot_fede_recycle_loot"><![CDATA[Produces 5-8 Food]]></entry>
+
+	<entry id="fe_devourer+str_bark_encourage"><![CDATA[a]]></entry>
+	<entry id="fe_devourer+str_bark_encourage"><![CDATA[a]]></entry>
+	<entry id="fe_devourer+str_bark_encourage"><![CDATA[a]]></entry>
+	
+	<entry id="fe_devourer+str_bark_first_aid"><![CDATA[b]]></entry>
+	<entry id="fe_devourer+str_bark_first_aid"><![CDATA[b]]></entry>
+	<entry id="fe_devourer+str_bark_first_aid"><![CDATA[b]]></entry>
+	
+	<entry id="fe_devourer+str_bark_pep_talk"><![CDATA[c]]></entry>
+	<entry id="fe_devourer+str_bark_pep_talk"><![CDATA[c]]></entry>
+	<entry id="fe_devourer+str_bark_pep_talk"><![CDATA[c]]></entry>
+	
+	<entry id="str_bark_fe_devourer_fede_feeling"><![CDATA[d]]></entry>
+	<entry id="str_bark_fe_devourer_fede_feeling"><![CDATA[d]]></entry>
+	<entry id="str_bark_fe_devourer_fede_feeling"><![CDATA[d]]></entry>
+	
+	<entry id="str_bark_fe_devourer_fede_hunger"><![CDATA[e]]></entry>
+	<entry id="str_bark_fe_devourer_fede_hunger"><![CDATA[e]]></entry>
+	<entry id="str_bark_fe_devourer_fede_hunger"><![CDATA[e]]></entry>
+	
+	<entry id="str_bark_fe_devourer_fede_phero"><![CDATA[f]]></entry>
+	<entry id="str_bark_fe_devourer_fede_phero"><![CDATA[f]]></entry>
+	<entry id="str_bark_fe_devourer_fede_phero"><![CDATA[f]]></entry>
+	
+	<entry id="str_bark_fe_devourer_fede_recycle"><![CDATA[g]]></entry>
+	<entry id="str_bark_fe_devourer_fede_recycle"><![CDATA[g]]></entry>
+	<entry id="str_bark_fe_devourer_fede_recycle"><![CDATA[g]]></entry>
+	
+	<!-- Crit Barks -->
+			
+	<entry id="fe_devourer+str_critbyhero"><![CDATA[.]]></entry>
+    <entry id="fe_devourer+str_critbyhero"><![CDATA[.]]></entry>
+    <entry id="fe_devourer+str_critbyhero"><![CDATA[.]]></entry>
+ 
+	<!-- Moving -->
+    <entry id="fe_devourer+str_bark_stopmoving"><![CDATA[?]]></entry>
+    <entry id="fe_devourer+str_bark_startmoving"><![CDATA[!]]></entry>
+
+	<!-- Light -->
+	<entry id="fe_devourer+str_bark_torch_0"><![CDATA[2]]></entry>
+    <entry id="fe_devourer+str_bark_torch_1"><![CDATA[.]]></entry>
+    <entry id="fe_devourer+str_bark_torch_2"><![CDATA[!]]></entry>
+
+	<!-- Taking Damage/DoTs -->
+	<entry id="fe_devourer+str_combat_knockback"><![CDATA[aaaaa]]></entry>
+	<entry id="fe_devourer+str_bark_bigwound"><![CDATA[l]]></entry>
+	<entry id="fe_devourer+str_bark_bigwound"><![CDATA[1]]></entry>
+	<entry id="fe_devourer+str_bark_bleeddot"><![CDATA[1111]]></entry>
+	<entry id="fe_devourer+str_bark_bleeddot"><![CDATA[daa]]></entry>
+	<entry id="fe_devourer+str_bark_poisondot"><![CDATA[wwww]]></entry>
+	<entry id="fe_devourer+str_bark_poisondot"><![CDATA[wwwww]]></entry>
+	<entry id="fe_devourer+str_bark_bigwound_ally"><![CDATA[a]]></entry>
+	<entry id="fe_devourer+str_bark_bigwound_ally"><![CDATA[aaaaaa]]></entry>
+
+	<!-- Heart Attacks --> 
+	<entry id="fe_devourer+str_heart_attack"><![CDATA[NO- NOT LIKE THIS NOT LIKE THIS!!!]]></entry>
+	<entry id="fe_devourer+str_heart_attack_paranoid"><![CDATA[skibidi]]></entry>
+	<entry id="fe_devourer+str_heart_attack_fearful"><![CDATA[s]]></entry>
+	<entry id="fe_devourer+str_heart_attack_masochistic"><![CDATA[a]]></entry>
+	<entry id="fe_devourer+str_heart_attack_abusive"><![CDATA[d]]></entry>
+	<entry id="fe_devourer+str_heart_attack_selfish"><![CDATA[c]]></entry>
+	<entry id="fe_devourer+str_heart_attack_depressed"><![CDATA[b]]></entry>
+	<entry id="fe_devourer+str_heart_attack_irrarional"><![CDATA[a]]></entry>
+	
+	<!-- Death's Door -->
+	<entry id="fe_devourer+str_bark_deathsdoor"><![CDATA[Ahhh I need a medic bag]]></entry>
+	<entry id="fe_devourer+str_bark_deathsdoor"><![CDATA[Ahhh I need a medic bag]]></entry>
+	<entry id="fe_devourer+str_bark_deathsdoor"><![CDATA[Ahhh I need a medic bag]]></entry>
+	
+	<entry id="fe_devourer+str_bark_deathsdoorsurvive"><![CDATA[THE RIZZLER RISES AGAIN!]]></entry>
+	<entry id="fe_devourer+str_bark_deathsdoorsurvive"><![CDATA[THE RIZZLER RISES AGAIN!]]></entry>
+	<entry id="fe_devourer+str_bark_deathsdoorsurvive"><![CDATA[THE RIZZLER RISES AGAIN!]]></entry>
+	
+	<!-- Stress -->
+	<entry id="fe_devourer+str_bark_increasingstress"><![CDATA[aaa]]></entry>
+    <entry id="fe_devourer+str_bark_increasingstress"><![CDATA[aaa]]></entry>
+    <entry id="fe_devourer+str_bark_increasingstress"><![CDATA[aaaa]]></entry>
+    <entry id="fe_devourer+str_bark_increasingstress"><![CDATA[aaaa]]></entry>
+
+	
+	<!-- Town Activities -->
+    <entry id="fe_devourer+str_treatment_committed"><![CDATA[Ver]]></entry>
+    <entry id="fe_devourer+str_treatment_committed"><![CDATA[Ver]]></entry>
+    <entry id="fe_devourer+str_roster_list_treatment_bark"><![CDATA[ache]]></entry>
+    <entry id="fe_devourer+str_roster_list_treatment_bark"><![CDATA[ache]]></entry>
+	
+    <entry id="fe_devourer+str_disease_treatment_committed"><![CDATA[.]]></entry>
+    <entry id="fe_devourer+str_disease_treatment_committed"><![CDATA[.]]></entry>
+    <entry id="fe_devourer+str_roster_list_disease_treatment_bark"><![CDATA[bbb]]></entry>
+    <entry id="fe_devourer+str_roster_list_disease_treatment_bark"><![CDATA[aaa]]></entry>
+
+	
+	<entry id="fe_devourer+str_bar_committed"><![CDATA[FOOD!!!]]></entry>
+	<entry id="fe_devourer+str_bar_committed"><![CDATA[FOOD!!!]]></entry>
+	<entry id="fe_devourer+str_bar_committed"><![CDATA[FOOD!!!]]></entry>
+	
+    <entry id="fe_devourer+str_gambling_committed"><![CDATA[gamblin]]></entry>
+    <entry id="fe_devourer+str_gambling_committed"><![CDATA[gamblin]]></entry>
+    <entry id="fe_devourer+str_gambling_committed"><![CDATA[snort]]></entry>
+	
+	<entry id="fe_devourer+str_brothel_committed"><![CDATA[seggs]]></entry>
+	<entry id="fe_devourer+str_brothel_committed"><![CDATA[seggs]]></entry>
+	<entry id="fe_devourer+str_brothel_committed"><![CDATA[seggs]]></entry>
+	
+	<entry id="fe_devourer+str_prayer_committed"><![CDATA[religion]]></entry>
+	<entry id="fe_devourer+str_prayer_committed"><![CDATA[religion]]></entry>
+	<entry id="fe_devourer+str_prayer_committed"><![CDATA[religion]]></entry>
+	
+    <entry id="fe_devourer+str_meditation_committed"><![CDATA[I'm not writing barks, you are lmao]]></entry>
+    <entry id="fe_devourer+str_meditation_committed"><![CDATA[I'm not writing barks, you are lmao]]></entry>
+    <entry id="fe_devourer+str_meditation_committed"><![CDATA[I'm not writing barks, you are lmao]]></entry>
+	
+    <entry id="fe_devourer+str_flagellation_committed"><![CDATA[sunshines, lollipops, and rainbows, everything wonderful is surely coming your way]]></entry>
+    <entry id="fe_devourer+str_flagellation_committed"><![CDATA[sunshines, lollipops, and rainbows, everything wonderful is surely coming your way]]></entry>
+	
+    <entry id="fe_devourer+str_deviant_tastes_brothel_rejection"><![CDATA[no seggs]]></entry>
+    <entry id="fe_devourer+str_deviant_tastes_brothel_rejection"><![CDATA[no seggs]]></entry>
+    <entry id="fe_devourer+str_deviant_tastes_brothel_rejection"><![CDATA[no seggs]]></entry>
+	
+	<!-- Roster -->
+	<entry id="fe_devourer+str_roster_list_low_stress_bark"><![CDATA[chillin plz]]></entry>
+	<entry id="fe_devourer+str_roster_list_low_stress_bark"><![CDATA[chillin plz]]></entry>
+	<entry id="fe_devourer+str_roster_list_low_stress_bark"><![CDATA[chillin plz]]></entry>
+    <entry id="fe_devourer+str_roster_list_medium_stress_bark"><![CDATA[not so chillin]]></entry>
+    <entry id="fe_devourer+str_roster_list_high_stress_bark"><![CDATA[bad mental boo boo]]></entry>
+    <entry id="fe_devourer+str_roster_list_high_stress_bark"><![CDATA[bad mental boo boo]]></entry>
+    <entry id="fe_devourer+str_roster_list_high_stress_bark"><![CDATA[bad mental boo boo]]></entry>
+	
+    <entry id="fe_devourer+str_roster_list_fearful_bark"><![CDATA[a]]></entry>
+    <entry id="fe_devourer+str_roster_list_paranoid_bark"><![CDATA[a]]></entry>
+    <entry id="fe_devourer+str_roster_list_depressed_bark"><![CDATA[a]]></entry>
+    <entry id="fe_devourer+str_roster_list_selfish_bark"><![CDATA[a]]></entry>
+    <entry id="fe_devourer+str_roster_list_abusive_bark"><![CDATA[a]]></entry>
+    <entry id="fe_devourer+str_roster_list_masochistic_bark"><![CDATA[a]]></entry>
+    <entry id="fe_devourer+str_roster_list_irrational_bark"><![CDATA[Skibidi gyatt ohio fanum tax]]></entry>
+	
+    <entry id="fe_devourer+str_roster_list_bar_bark"><![CDATA[drunk af]]></entry>
+    <entry id="fe_devourer+str_roster_list_bar_bark"><![CDATA[drunk af]]></entry>
+    <entry id="fe_devourer+str_roster_list_bar_bark"><![CDATA[drunk af]]></entry>
+    <entry id="fe_devourer+str_roster_list_bar_bark"><![CDATA[*slurring gibberish*]]></entry>
+    <entry id="fe_devourer+str_roster_list_bar_bark"><![CDATA[yep drunk]]></entry>
+    <entry id="fe_devourer+str_roster_list_gambling_bark"><![CDATA[Gamba streams]]></entry>
+    <entry id="fe_devourer+str_roster_list_gambling_bark"><![CDATA[Gamba streams]]></entry>
+    <entry id="fe_devourer+str_roster_list_gambling_bark"><![CDATA[Gamba streams]]></entry>
+    <entry id="fe_devourer+str_roster_list_brothel_bark"><![CDATA[seggs talk?]]></entry>
+	
+    <entry id="fe_devourer+str_roster_list_meditation_bark"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_roster_list_prayer_bark"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_roster_list_flagellation_bark"><![CDATA[REPLACE MOI]]></entry>
+	
+	<entry id="fe_devourer+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[Oh shit they made it outta the dark place]]></entry>
+    <entry id="fe_devourer+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[Oh shit they made it outta the dark place]]></entry>
+	
+    <entry id="fe_devourer+str_stagecoach_idle"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_stagecoach_idle"><![CDATA[REPLACE MOI]]></entry>
+
+	<!--AFFLICTIONS-->
+
+
+	<!-- Abusive -->
+
+    <entry id="fe_devourer+str_afflicted_abusive"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_afflicted_abusive"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_afflicted_abusive"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_afflicted_abusive"><![CDATA[REPLACE MOI]]></entry>
+	
+	<!-- Abusive: Stress -->
+
+    <entry id="fe_devourer+str_bark_stress_abusive"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_bark_stress_abusive"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_bark_stress_abusive"><![CDATA[REPLACE MOI]]></entry>
+	
+	<!-- Abusive: Random -->
+	
+    <entry id="fe_devourer+str_random_command_abusive"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_random_command_abusive"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_random_command_abusive"><![CDATA[REPLACE MOI]]></entry>
+	
+	<!-- Abusive: Friendly Fire -->
+
+    <entry id="fe_devourer+str_attack_friendly_abusive"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_attack_friendly_abusive"><![CDATA[REPLACE MOI]]></entry>
+	
+	<!-- Abusive: Camp Stress -->
+	
+    <entry id="fe_devourer+str_bark_stress_camp_abusive"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_bark_stress_camp_abusive"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_bark_stress_camp_abusive"><![CDATA[REPLACE MOI]]></entry>
+	
+	<!-- Abusive: Ally's Attack Hit -->
+	
+    <entry id="fe_devourer+str_comment_ally_attack_hit_abusive"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_comment_ally_attack_hit_abusive"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_comment_ally_attack_hit_abusive"><![CDATA[REPLACE MOI]]></entry>
+	
+	<!-- Abusive: Ally's Attack Missed -->
+	
+    <entry id="fe_devourer+str_comment_ally_attack_missed_abusive"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_comment_ally_attack_missed_abusive"><![CDATA[REPLACE MOI]]></entry>
+	
+	<!-- Abusive: Ally is hit by an enemy -->
+	
+    <entry id="fe_devourer+str_comment_ally_hit_abusive"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_comment_ally_hit_abusive"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_comment_ally_hit_abusive"><![CDATA[REPLACE MOI]]></entry>
+	
+	<!-- Abusive: Block Move -->
+	
+    <entry id="fe_devourer+str_block_move_abusive"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_block_move_abusive"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_block_move_abusive"><![CDATA[REPLACE MOI]]></entry>
+	
+	<!-- Abusive: Block Camping Skill Performer -->
+	
+    <entry id="fe_devourer+str_block_camping_skill_performer_abusive"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_block_camping_skill_performer_abusive"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_block_camping_skill_performer_abusive"><![CDATA[REPLACE MOI]]></entry>
+    
+	<!-- Abusive: Block Camping Skill -->
+	
+	<entry id="fe_devourer+str_block_camping_skill_target_abusive"><![CDATA[REPLACE MOI]]></entry>
+	<entry id="fe_devourer+str_block_camping_skill_target_abusive"><![CDATA[REPLACE MOI]]></entry>
+
+	<!-- Depressed -->
+
+    <entry id="fe_devourer+str_afflicted_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_afflicted_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_afflicted_depressed"><![CDATA[REPLACE MOI]]></entry>
+	
+	<!-- Depressed: Bark Stress -->
+
+    <entry id="fe_devourer+str_bark_stress_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_bark_stress_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_bark_stress_depressed"><![CDATA[REPLACE MOI]]></entry>
+	
+	<!-- Depressed: Move Forward -->
+	
+    <entry id="fe_devourer+str_change_pos_fwd_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_change_pos_fwd_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_change_pos_fwd_depressed"><![CDATA[REPLACE MOI]]></entry>
+	
+	<!-- Depressed: Move Back -->
+	
+    <entry id="fe_devourer+str_change_pos_back_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_change_pos_back_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_change_pos_back_depressed"><![CDATA[REPLACE MOI]]></entry>
+	
+	<!-- Depressed: Ignore command -->
+	
+    <entry id="fe_devourer+str_ignore_command_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_ignore_command_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_ignore_command_depressed"><![CDATA[REPLACE MOI]]></entry>
+	
+	<!-- Depressed: Block Meal -->
+	
+    <entry id="fe_devourer+str_block_camping_meal_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_block_camping_meal_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_block_camping_meal_depressed"><![CDATA[REPLACE MOI]]></entry>
+	
+	<!-- Depressed: Random command -->
+	
+    <entry id="fe_devourer+str_random_command_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_random_command_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_random_command_depressed"><![CDATA[REPLACE MOI]]></entry>
+	
+	<!-- Depressed: Camp Stress -->
+	
+    <entry id="fe_devourer+str_bark_stress_camp_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_bark_stress_camp_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_bark_stress_camp_depressed"><![CDATA[REPLACE MOI]]></entry>
+	
+	<!-- Depressed: Mark Self -->
+	
+    <entry id="fe_devourer+str_mark_self_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_mark_self_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_mark_self_depressed"><![CDATA[REPLACE MOI]]></entry>
+	
+	<!-- Depressed: Attack Self -->
+	
+    <entry id="fe_devourer+str_attack_self_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_attack_self_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_attack_self_depressed"><![CDATA[REPLACE MOI]]></entry>
+	
+	<!-- Depressed: Block Retreat -->
+	
+    <entry id="fe_devourer+str_block_combat_retreat_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_block_combat_retreat_depressed"><![CDATA[REPLACE MOI]]></entry>
+	
+	<!-- Depressed: Block Item -->
+	
+    <entry id="fe_devourer+str_block_item_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_block_item_depressed"><![CDATA[REPLACE MOI]]></entry>
+	
+	<!-- Depressed: Block Heal -->
+	
+    <entry id="fe_devourer+str_block_heal_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_block_heal_depressed"><![CDATA[REPLACE MOI]]></entry>
+	
+	<!-- Depressed: Block Camping Skill Performer -->
+	
+    <entry id="fe_devourer+str_block_camping_skill_performer_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_block_camping_skill_performer_depressed"><![CDATA[REPLACE MOI]]></entry>
+	
+	<!-- Depressed: Block Camping Skill -->
+	
+    <entry id="fe_devourer+str_block_camping_skill_target_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_block_camping_skill_target_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_block_camping_skill_target_depressed"><![CDATA[REPLACE MOI]]></entry>
+	
+	<!-- Depressed: Block Buff -->
+	
+    <entry id="fe_devourer+str_block_buff_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_block_buff_depressed"><![CDATA[REPLACE MOI]]></entry>
+    <entry id="fe_devourer+str_block_buff_depressed"><![CDATA[REPLACE MOI]]></entry>
+
+
+
+	<!-- Fearful -->
+	
+	<entry id="fe_devourer+str_afflicted_fearful"><![CDATA[rrrrrrrrrrrrrahahhahahahaha]]></entry>
+	<entry id="fe_devourer+str_afflicted_fearful"><![CDATA[Stay away from me!]]></entry>
+	<entry id="fe_devourer+str_afflicted_fearful"><![CDATA[Don't come closer!]]></entry>
+	
+	<!-- Fearful: Move Back -->
+	
+    <entry id="fe_devourer+str_change_pos_back_fearful"><![CDATA[God I HATE BARKS!]]></entry>
+    <entry id="fe_devourer+str_change_pos_back_fearful"><![CDATA[God I HATE BARKS!]]></entry>
+    <entry id="fe_devourer+str_change_pos_back_fearful"><![CDATA[God I HATE BARKS!]]></entry>
+	
+	<!-- Fearful: bark stress -->
+
+    <entry id="fe_devourer+str_bark_stress_fearful"><![CDATA[asaaaaaaaaaaaaaaaaaaaas.]]></entry>
+    <entry id="fe_devourer+str_bark_stress_fearful"><![CDATA[asaaaaaaaaaaaaaaaaaaaas.]]></entry>
+    <entry id="fe_devourer+str_bark_stress_fearful"><![CDATA[asaaaaaaaaaaaaaaaaaaaas.]]></entry>
+	
+	<!-- Fearful: Ignore command-->
+	
+    <entry id="fe_devourer+str_ignore_command_fearful"><![CDATA[asghashahahahhahahaha]]></entry>
+    <entry id="fe_devourer+str_ignore_command_fearful"><![CDATA[asghashahahahhahahaha]]></entry>
+    <entry id="fe_devourer+str_ignore_command_fearful"><![CDATA[asghashahahahhahahaha]]></entry>
+	
+	<!-- Fearful: Camp Stress -->
+	
+    <entry id="fe_devourer+str_bark_stress_camp_fearful"><![CDATA[Pebaa]]></entry>
+    <entry id="fe_devourer+str_bark_stress_camp_fearful"><![CDATA[Pebaa]]></entry>
+    <entry id="fe_devourer+str_bark_stress_camp_fearful"><![CDATA[Pebaa]]></entry>
+	
+	
+	<!-- Fearful: Self is hit by an enemy -->
+	
+    <entry id="fe_devourer+str_comment_self_hit_fearful"><![CDATA[AH!]]></entry>
+    <entry id="fe_devourer+str_comment_self_hit_fearful"><![CDATA[AH!]]></entry>
+    <entry id="fe_devourer+str_comment_self_hit_fearful"><![CDATA[AH!]]></entry>
+    <entry id="fe_devourer+str_comment_self_hit_fearful"><![CDATA[AH!]]></entry>
+	
+	<!-- Fearful: Self is Missed by an enemy-->
+	
+    <entry id="fe_devourer+str_comment_self_missed_fearful"><![CDATA[if you want to destroy my sweateeerrrr]]></entry>
+    <entry id="fe_devourer+str_comment_self_missed_fearful"><![CDATA[<Cowering>]]></entry>
+	
+	<!-- Fearful: Ally Attack Missed -->
+	
+    <entry id="fe_devourer+str_comment_ally_attack_missed_fearful"><![CDATA[7372t374723t2737483245678r65253678]]></entry>
+    <entry id="fe_devourer+str_comment_ally_attack_missed_fearful"><![CDATA[7372t374723t2737483245678r65253678]]></entry>
+	
+	<!-- Fearful: Ally was hit by an enemy -->
+	
+    <entry id="fe_devourer+str_comment_ally_hit_fearful"><![CDATA[asdgasdgasdyug3yv]]></entry>=
+    <entry id="fe_devourer+str_comment_ally_hit_fearful"><![CDATA[asdgasdgasdyug3yv]]></entry>=
+    <entry id="fe_devourer+str_comment_ally_hit_fearful"><![CDATA[asdgasdgasdyug3yv]]></entry>=
+	
+	<!-- Fearful: Ally Dodged -->
+	
+    <entry id="fe_devourer+str_comment_ally_missed_fearful"><![CDATA[on god, making a typo in this fucking maze would suck absolute ass]]></entry>
+    <entry id="fe_devourer+str_comment_ally_missed_fearful"><![CDATA[on god, making a typo in this fucking maze would suck absolute ass]]></entry>
+    <entry id="fe_devourer+str_comment_ally_missed_fearful"><![CDATA[on god, making a typo in this fucking maze would suck absolute ass]]></entry>
+	
+	
+	<!-- Fearful: Block Move -->
+	
+    <entry id="fe_devourer+str_block_move_fearful"><![CDATA[No!]]></entry>
+    <entry id="fe_devourer+str_block_move_fearful"><![CDATA[I refuse!]]></entry>
+    <entry id="fe_devourer+str_block_move_fearful"><![CDATA[Anywhere else is doomed!]]></entry>
+	    <entry id="fe_devourer+str_block_move_fearful"><![CDATA[No! No!]]></entry>
+    <entry id="fe_devourer+str_block_move_fearful"><![CDATA[But I refuse!]]></entry>
+	
+	<!-- Fearful: Block Camping Skill Performer -->
+	
+    <entry id="fe_devourer+str_block_camping_skill_performer_fearful"><![CDATA[asdasdasdasdrrrr!]]></entry>
+    <entry id="fe_devourer+str_block_camping_skill_performer_fearful"><![CDATA[asdasdasdasdrrrr!]]></entry>
+    <entry id="fe_devourer+str_block_camping_skill_performer_fearful"><![CDATA[asdasdasdasdrrrr!]]></entry>
+	
+
+
+	<!-- Irrational -->
+	
+    <entry id="fe_devourer+str_afflicted_irrational"><![CDATA[man i miss summersalt... what ever happened to them anyways?]]></entry>
+    <entry id="fe_devourer+str_afflicted_irrational"><![CDATA[man i miss summersalt... what ever happened to them anyways?]]></entry>
+    <entry id="fe_devourer+str_afflicted_irrational"><![CDATA[man i miss summersalt... what ever happened to them anyways?]]></entry>
+    <entry id="fe_devourer+str_afflicted_irrational"><![CDATA[man i miss summersalt... what ever happened to them anyways?]]></entry>
+	
+	<!-- Irrational: Move Forward -->
+	
+    <entry id="fe_devourer+str_change_pos_fwd_irrational"><![CDATA[agsvgsvgav otytyty.]]></entry>
+    <entry id="fe_devourer+str_change_pos_fwd_irrational"><![CDATA[agsvgsvgav otytyty.]]></entry>
+    <entry id="fe_devourer+str_change_pos_fwd_irrational"><![CDATA[agsvgsvgav otytyty.]]></entry>
+	
+	<!-- Irrational: Move Back -->
+	
+    <entry id="fe_devourer+str_change_pos_back_irrational"><![CDATA[werasjajsnjadnjasndjna]]></entry>
+    <entry id="fe_devourer+str_change_pos_back_irrational"><![CDATA[werasjajsnjadnjasndjna]]></entry>
+    <entry id="fe_devourer+str_change_pos_back_irrational"><![CDATA[werasjajsnjadnjasndjna]]></entry>
+	
+	<!-- Irrational: Bark Stress -->
+	
+    <entry id="fe_devourer+str_bark_stress_irrational"><![CDATA[ghasgdvagsvdgavsgdvagsdv]]></entry>
+    <entry id="fe_devourer+str_bark_stress_irrational"><![CDATA[ghasgdvagsvdgavsgdvagsdv]]></entry>
+    <entry id="fe_devourer+str_bark_stress_irrational"><![CDATA[HEY HEY!!]]></entry>
+	
+	<!-- Irrational: Ignore command -->
+	
+    <entry id="fe_devourer+str_ignore_command_irrational"><![CDATA[werk]]></entry>
+    <entry id="fe_devourer+str_ignore_command_irrational"><![CDATA[werk]]></entry>
+    <entry id="fe_devourer+str_ignore_command_irrational"><![CDATA[werk]]></entry>
+	
+	<!-- Irrational: Friendly fire -->
+	
+    <entry id="fe_devourer+str_attack_friendly_irrational"><![CDATA[HAHAHAHAHAHAHA!!]]></entry>
+    <entry id="fe_devourer+str_attack_friendly_irrational"><![CDATA[TE-HEE~~]]></entry>	
+	
+	<!-- Irrational: Block Meal -->
+	
+    <entry id="fe_devourer+str_block_camping_meal_irrational"><![CDATA[Nuh, uh!!]]></entry>
+    <entry id="fe_devourer+str_block_camping_meal_irrational"><![CDATA[Nuh, uh!!]]></entry>
+    <entry id="fe_devourer+str_block_camping_meal_irrational"><![CDATA[Nuh, uh!!]]></entry>
+	
+	<!-- Irrational: Random command -->
+	
+    <entry id="fe_devourer+str_random_command_irrational"><![CDATA[ahsbhdbashdbhashohbsjhavdjhjhjhv]]></entry>
+    <entry id="fe_devourer+str_random_command_irrational"><![CDATA[ahsbhdbashdbhashohbsjhavdjhjhjhv]]></entry>
+    <entry id="fe_devourer+str_random_command_irrational"><![CDATA[ahsbhdbashdbhashohbsjhavdjhjhjhv]]></entry>
+	
+	<!-- Irrational: Camp Stress -->
+	
+    <entry id="fe_devourer+str_bark_stress_camp_irrational"><![CDATA[<sniffs> Do you smell that? There's a smelly smell that smells... Smelly.]]></entry>
+    <entry id="fe_devourer+str_bark_stress_camp_irrational"><![CDATA[I am foliage, not trees. I am shrubbery, not grass... What am I?]]></entry>
+    <entry id="fe_devourer+str_bark_stress_camp_irrational"><![CDATA[Burklesftart]]></entry>
+	
+	<!-- Irrational: Mark Self -->
+	
+    <entry id="fe_devourer+str_mark_self_irrational"><![CDATA[uterly remarkableh]]></entry>
+    <entry id="fe_devourer+str_mark_self_irrational"><![CDATA[uterly remarkableh]]></entry>
+    <entry id="fe_devourer+str_mark_self_irrational"><![CDATA[uterly remarkableh]]></entry>
+	
+	<!-- Irrational: Self dogded an attack -->
+	
+    <entry id="fe_devourer+str_comment_self_missed_irrational"><![CDATA[Nyeh nyeh nyeh! Loser!]]></entry>
+    <entry id="fe_devourer+str_comment_self_missed_irrational"><![CDATA[Again! Again! Ahahahah!]]></entry>
+	
+	<!-- Irrational: Ally Attack Hit -->
+	
+    <entry id="fe_devourer+str_comment_ally_attack_hit_irrational"><![CDATA[HAHAHAHAHAHAHA!]]></entry>
+    <entry id="fe_devourer+str_comment_ally_attack_hit_irrational"><![CDATA[TE-HEEE~]]></entry>
+	
+	<!-- Irrational: Ally Attack Missed -->
+	
+    <entry id="fe_devourer+str_comment_ally_attack_missed_irrational"><![CDATA[BLEH~]]></entry>
+    <entry id="fe_devourer+str_comment_ally_attack_missed_irrational"><![CDATA[Wa?]]></entry>	
+	
+	<!-- Irrational: Ally Dodged -->
+	
+    <entry id="fe_devourer+str_comment_ally_missed_irrational"><![CDATA[TE-HEEE~]]></entry>
+    <entry id="fe_devourer+str_comment_ally_missed_irrational"><![CDATA[HHAHAHAHAHAHA!!]]></entry>
+	
+	<!-- Irrational: Block Move -->
+	
+    <entry id="fe_devourer+str_block_move_irrational"><![CDATA[uysgdhgfagshdg yagwysgdhashdya]]></entry>
+    <entry id="fe_devourer+str_block_move_irrational"><![CDATA[wgita]></entry>
+	
+	<!-- Irrational: Block Item -->
+	
+    <entry id="fe_devourer+str_block_item_irrational"><![CDATA[askakakkakaksksksksksksksksksksk]]></entry>
+    <entry id="fe_devourer+str_block_item_irrational"><![CDATA[!]]></entry>
+	
+	<!-- Irrational: Block Heal -->
+	
+    <entry id="fe_devourer+str_block_heal_irrational"><![CDATA[Degenbrencher]]></entry>
+    <entry id="fe_devourer+str_block_heal_irrational"><![CDATA[Degenbrencher]]></entry>
+	
+	<!-- Irrational: Block Buff -->
+	
+    <entry id="fe_devourer+str_block_buff_irrational"><![CDATA[also listen to IDKHBTFM]]></entry>
+    <entry id="fe_devourer+str_block_buff_irrational"><![CDATA[also listen to IDKHBTFM]]></entry>
+    <entry id="fe_devourer+str_block_buff_irrational"><![CDATA[also listen to IDKHBTFM]]></entry>
+	
+	<!-- Irrational: Block Camp Skill Performer -->
+	
+    <entry id="fe_devourer+str_block_camping_skill_performer_irrational"><![CDATA[Nuh uh!]]></entry>
+    <entry id="fe_devourer+str_block_camping_skill_performer_irrational"><![CDATA[Nuh uh!]]></entry>
+    <entry id="fe_devourer+str_block_camping_skill_performer_irrational"><![CDATA[Nuh uh!]]></entry>
+	
+	<!-- Irrational: Block Camp Skill -->
+	
+    <entry id="fe_devourer+str_block_camping_skill_target_irrational"><![CDATA[Im not even aasasdasdasdasdasda]]></entry>
+    <entry id="fe_devourer+str_block_camping_skill_target_irrational"><![CDATA[HAHAHAHA!]]></entry>
+	
+	<!-- Irrational: Attack Self -->
+	
+    <entry id="fe_devourer+str_attack_self_irrational"><![CDATA[E-eh??]]></entry>
+    <entry id="fe_devourer+str_attack_self_irrational"><![CDATA[ahahahahaha]]></entry>
+	
+	<!-- Irrational: Block Retreat -->
+	
+    <entry id="fe_devourer+str_block_combat_retreat_irrational"><![CDATA[If you see this bark in-game, please contact your local correctional officer]]></entry>
+    <entry id="fe_devourer+str_block_combat_retreat_irrational"><![CDATA[I was told that these barks don't work... Maybe I'm wrong and they do show up in-game?]]></entry>
+	
+	<!-- Irrational: Self was hit by an enemy-->
+	
+    <entry id="fe_devourer+str_comment_self_hit_irrational"><![CDATA[pada deszcz]]></entry>
+    <entry id="fe_devourer+str_comment_self_hit_irrational"><![CDATA[pada deszcz]]></entry>
+    <entry id="fe_devourer+str_comment_self_hit_irrational"><![CDATA[pada deszcz]]></entry>
+		
+	<!-- Irrational: Ally was hit by an enemy -->
+	
+    <entry id="fe_devourer+str_comment_ally_hit_irrational"><![CDATA[weurjhgweurjhg]]></entry>
+    <entry id="fe_devourer+str_comment_ally_hit_irrational"><![CDATA[weurjhgweurjhg]]></entry>
+	
+
+    
+	<!-- Masochistic -->
+
+    <entry id="fe_devourer+str_afflicted_masochistic"><![CDATA[asdasdasdasd]]></entry>
+    <entry id="fe_devourer+str_afflicted_masochistic"><![CDATA[asdasdasdasd]]></entry>
+    <entry id="fe_devourer+str_afflicted_masochistic"><![CDATA[asdasdasdasd]]></entry>
+	
+	<!-- Masochistic: Move Forward -->
+
+    <entry id="fe_devourer+str_change_pos_fwd_masochistic"><![CDATA[fa-fa-fa-far far better]]></entry>
+    <entry id="fe_devourer+str_change_pos_fwd_masochistic"><![CDATA[fa-fa-fa-far far better]]></entry>
+    <entry id="fe_devourer+str_change_pos_fwd_masochistic"><![CDATA[fa-fa-fa-far far better]]></entry>
+	
+	<!-- Masochistic: Stress  -->
+
+    <entry id="fe_devourer+str_bark_stress_masochistic"><![CDATA[aashahshshhshshs]]></entry>
+    <entry id="fe_devourer+str_bark_stress_masochistic"><![CDATA[aashahshshhshshs]]></entry>
+    <entry id="fe_devourer+str_bark_stress_masochistic"><![CDATA[aashahshshhshshs]]></entry>
+	
+	<!-- Masochistic: Random -->
+	
+    <entry id="fe_devourer+str_random_command_masochistic"><![CDATA[asdasdasdasdaewdasdawv qeeqwwww]]></entry>
+    <entry id="fe_devourer+str_random_command_masochistic"><![CDATA[asdasdasdasdaewdasdawv qeeqwwww]]></entry>
+    <entry id="fe_devourer+str_random_command_masochistic"><![CDATA[asdasdasdasdaewdasdawv qeeqwwww]]></entry>
+	
+	<!-- Masochistic: Block Meal -->
+	
+    <entry id="fe_devourer+str_block_camping_meal_masochistic"><![CDATA[asadsawewefsefasddewrwg]]></entry>
+    <entry id="fe_devourer+str_block_camping_meal_masochistic"><![CDATA[asadsawewefsefasddewrwg]]></entry>
+	
+	<!-- Masochistic: Mark Self -->
+	
+    <entry id="fe_devourer+str_mark_self_masochistic"><![CDATA[AASDASDASDASDA]]></entry>
+    <entry id="fe_devourer+str_mark_self_masochistic"><![CDATA[AASDASDASDASDA]]></entry>
+    <entry id="fe_devourer+str_mark_self_masochistic"><![CDATA[AASDASDASDASDA]]></entry>
+	
+	<!-- Masochistic: Attack Self -->
+	
+    <entry id="fe_devourer+str_attack_self_masochistic"><![CDATA[no, the codex does not support self harm.]]></entry>
+    <entry id="fe_devourer+str_attack_self_masochistic"><![CDATA[no, the codex does not support self harm.]]></entry>
+	
+	<!-- Masochistic: Block Retreat -->
+	
+    <entry id="fe_devourer+str_block_combat_retreat_masochistic"><![CDATA[<noises?>]]></entry>
+    <entry id="fe_devourer+str_block_combat_retreat_masochistic"><![CDATA[<noises?>]]></entry>
+	
+	<!-- Masochistic: Self was hit by an enemy -->
+	
+    <entry id="fe_devourer+str_comment_self_hit_masochistic"><![CDATA[<whimper>]]></entry>
+    <entry id="fe_devourer+str_comment_self_hit_masochistic"><![CDATA[<whimper>]]></entry>
+    <entry id="fe_devourer+str_comment_self_hit_masochistic"><![CDATA[<whimper>]]></entry>
+	
+	<!-- Masochistic: Self was missed by an enemy -->
+	
+    <entry id="fe_devourer+str_comment_self_missed_masochistic"><![CDATA[cuz you make earfquake]]></entry>
+    <entry id="fe_devourer+str_comment_self_missed_masochistic"><![CDATA[cuz you make earfquake]]></entry>
+	
+	<!-- Masochistic: Ally was hit by an enemy -->
+	
+    <entry id="fe_devourer+str_comment_ally_hit_masochistic"><![CDATA[Dont leaaave its my faultttttt]]></entry>
+    <entry id="fe_devourer+str_comment_ally_hit_masochistic"><![CDATA[Dont leaaave its my faultttttt]]></entry>
+	
+	<!-- Masochistic: Block Move -->
+	
+    <entry id="fe_devourer+str_block_move_masochistic"><![CDATA[NO!]]></entry>
+    <entry id="fe_devourer+str_block_move_masochistic"><![CDATA[I'll stay right here.]]></entry>
+    <entry id="fe_devourer+str_block_move_masochistic"><![CDATA[You'll have to push me to move me away from here!]]></entry>
+	
+	<!-- Masochistic: Block Item -->
+	
+    <entry id="fe_devourer+str_block_item_masochistic"><![CDATA[aasdasdjhashdvhajsvdh]]></entry>
+    <entry id="fe_devourer+str_block_item_masochistic"><![CDATA[aasdasdjhashdvhajsvdh]]></entry>
+	
+	<!-- Masochistic: Block Heal -->
+	
+    <entry id="fe_devourer+str_block_heal_masochistic"><![CDATA[aaaaadsasew]]></entry>
+    <entry id="fe_devourer+str_block_heal_masochistic"><![CDATA[aaaaadsasew]]></entry>
+
+	<!-- Masochistic: Block Buff -->
+	
+    <entry id="fe_devourer+str_block_buff_masochistic"><![CDATA[Psycho killer, ques que seis]]></entry>
+    <entry id="fe_devourer+str_block_buff_masochistic"><![CDATA[Psycho killer, ques que seis]]></entry>
+    <entry id="fe_devourer+str_block_buff_masochistic"><![CDATA[Psycho killer, ques que seis]]></entry>
+	
+	<!-- Masochistic: Block Camping Skill Performer -->
+	
+    <entry id="fe_devourer+str_block_camping_skill_performer_masochistic"><![CDATA[Earfquake was tight]]></entry>
+    <entry id="fe_devourer+str_block_camping_skill_performer_masochistic"><![CDATA[Earfquake was tight]]></entry>
+    <entry id="fe_devourer+str_block_camping_skill_performer_masochistic"><![CDATA[Earfquake was tight]]></entry>
+	
+	<!-- Masochistic: Block Camping Skill -->
+	
+    <entry id="fe_devourer+str_block_camping_skill_target_masochistic"><![CDATA[It's raining somewhere else now.]]></entry>
+    <entry id="fe_devourer+str_block_camping_skill_target_masochistic"><![CDATA[It's raining somewhere else now.]]></entry>
+    <entry id="fe_devourer+str_block_camping_skill_target_masochistic"><![CDATA[It's raining somewhere else now.]]></entry>
+	
+	<!-- Masochistic: Camp Stress -->
+	
+    <entry id="fe_devourer+str_bark_stress_camp_masochistic"><![CDATA[I]]></entry>
+    <entry id="fe_devourer+str_bark_stress_camp_masochistic"><![CDATA[Is]]></entry>
+    <entry id="fe_devourer+str_bark_stress_camp_masochistic"><![CDATA[Ia]]></entry>
+		
+
+
+	<!-- Paranoid -->
+
+    <entry id="fe_devourer+str_afflicted_paranoid"><![CDATA[b]]></entry>
+	<entry id="fe_devourer+str_afflicted_paranoid"><![CDATA[a]]></entry>
+	<entry id="fe_devourer+str_afflicted_paranoid"><![CDATA[c]]></entry>
+	
+	<!-- Paranoid: Move Back -->
+	
+    <entry id="fe_devourer+str_change_pos_back_paranoid"><![CDATA[why in god's name are there so many barks?]]></entry>
+    <entry id="fe_devourer+str_change_pos_back_paranoid"><![CDATA[why in god's name are there so many barks?]]></entry>
+    <entry id="fe_devourer+str_change_pos_back_paranoid"><![CDATA[why in god's name are there so many barks?]]></entry>
+	
+	<!-- Paranoid: Stress -->
+	
+    <entry id="fe_devourer+str_bark_stress_paranoid"><![CDATA[Wub dub dub dub steeeeepppppp yes, im not making sense, blame the me not sleeping healthy part]]></entry>
+    <entry id="fe_devourer+str_bark_stress_paranoid"><![CDATA[Wub dub dub dub steeeeepppppp yes, im not making sense, blame the me not sleeping healthy part]]></entry>
+    <entry id="fe_devourer+str_bark_stress_paranoid"><![CDATA[Wub dub dub dub steeeeepppppp yes, im not making sense, blame the me not sleeping healthy part]]></entry>
+	
+	<!-- Paranoid: Ignore command -->
+	
+    <entry id="fe_devourer+str_ignore_command_paranoid"><![CDATA[No Sah, for the last time, I am not a brony... Why are you reading these? they're mostly gibberish!]]></entry>
+    <entry id="fe_devourer+str_ignore_command_paranoid"><![CDATA[No Sah, for the last time, I am not a brony... Why are you reading these? they're mostly gibberish!]]></entry>
+    <entry id="fe_devourer+str_ignore_command_paranoid"><![CDATA[No Sah, for the last time, I am not a brony... Why are you reading these? they're mostly gibberish!]]></entry>
+	
+	<!-- Paranoid: Random command -->
+
+    <entry id="fe_devourer+str_random_command_paranoid"><![CDATA[I WAS THERE THE DAY HORUS SLEW THE EMPEROR]]></entry>
+    <entry id="fe_devourer+str_random_command_paranoid"><![CDATA[I WAS THERE THE DAY HORUS SLEW THE EMPEROR]]></entry>
+    <entry id="fe_devourer+str_random_command_paranoid"><![CDATA[I WAS THERE THE DAY HORUS SLEW THE EMPEROR]]></entry>
+	
+	<!-- Paranoid: Friendly Fire -->
+
+    <entry id="fe_devourer+str_attack_friendly_paranoid"><![CDATA[HORUSSSSSSS]]></entry>
+    <entry id="fe_devourer+str_attack_friendly_paranoid"><![CDATA[HORUSSSSSSS]]></entry>
+	
+	<!-- Paranoid: Block Meal -->
+
+    <entry id="fe_devourer+str_block_camping_meal_paranoid"><![CDATA[Prince esta muerte... T^T]]></entry>
+    <entry id="fe_devourer+str_block_camping_meal_paranoid"><![CDATA[Prince esta muerte... T^T]]></entry>
+	
+	<!-- Paranoid: Camp Stress -->
+	
+    <entry id="fe_devourer+str_bark_stress_camp_paranoid"><![CDATA[Noises in the winds, strange smells and stranger colours... oh wait, i farted]]></entry>
+    <entry id="fe_devourer+str_bark_stress_camp_paranoid"><![CDATA[Noises in the winds, strange smells and stranger colours... oh wait, i farted]]></entry>
+    <entry id="fe_devourer+str_bark_stress_camp_paranoid"><![CDATA[Noises in the winds, strange smells and stranger colours... oh wait, i farted]]></entry>
+	
+	<!-- Paranoid: Self was hit by an enemy -->
+	
+    <entry id="fe_devourer+str_comment_self_hit_paranoid"><![CDATA[what does the fox say]]></entry>
+    <entry id="fe_devourer+str_comment_self_hit_paranoid"><![CDATA[what does the fox say]]></entry>
+	
+	<!-- Paranoid: Self was missed by an enemy -->
+	
+    <entry id="fe_devourer+str_comment_self_missed_paranoid"><![CDATA[NYAHNYAHNYAHNYAH]]></entry>
+    <entry id="fe_devourer+str_comment_self_missed_paranoid"><![CDATA[NYAHNYAHNYAHNYAH]]></entry>
+	
+	<!-- Paranoid: Ally attack Missed -->
+	
+    <entry id="fe_devourer+str_comment_ally_attack_missed_paranoid"><![CDATA[AKKAKAKAKAKAKAKAKAKSDHASHDAVSDV]]></entry>
+    <entry id="fe_devourer+str_comment_ally_attack_missed_paranoid"><![CDATA[AKKAKAKAKAKAKAKAKAKSDHASHDAVSDV]]></entry>
+	
+	<!-- Paranoid: Ally was hit by an enemy -->
+	
+    <entry id="fe_devourer+str_comment_ally_hit_paranoid"><![CDATA[MY ROFLCOPTER GO SWSH SWSH SWSH]]></entry>
+    <entry id="fe_devourer+str_comment_ally_hit_paranoid"><![CDATA[MY ROFLCOPTER GO SWSH SWSH SWSH]]></entry>
+	
+	<!-- Paranoid: Ally dodged -->
+	
+    <entry id="fe_devourer+str_comment_ally_missed_paranoid"><![CDATA[I HATE BARKS SKSKKSKSKSKSK BARKKKKKSSSS]]></entry>
+    <entry id="fe_devourer+str_comment_ally_missed_paranoid"><![CDATA[I HATE BARKS SKSKKSKSKSKSK BARKKKKKSSSS]]></entry>
+	
+	<!-- Paranoid: Block Move -->
+	
+    <entry id="fe_devourer+str_block_move_paranoid"><![CDATA[ahsbajhshjdb habshdhja]]></entry>
+    <entry id="fe_devourer+str_block_move_paranoid"><![CDATA[ahsbajhshjdb habshdhja]]></entry>
+	
+	<!-- Paranoid: Block Item -->
+	
+    <entry id="fe_devourer+str_block_item_paranoid"><![CDATA[press 1 for the money, press 2 for the dreaaaaam]]></entry>
+    <entry id="fe_devourer+str_block_item_paranoid"><![CDATA[press 1 for the money, press 2 for the dreaaaaam]]></entry>
+    <entry id="fe_devourer+str_block_item_paranoid"><![CDATA[press 1 for the money, press 2 for the dreaaaaam]]></entry>
+	
+	<!-- Paranoid: Block Heal -->
+	
+    <entry id="fe_devourer+str_block_heal_paranoid"><![CDATA[stranger danger!]]></entry>
+    <entry id="fe_devourer+str_block_heal_paranoid"><![CDATA[stranger danger!]]></entry>
+    <entry id="fe_devourer+str_block_heal_paranoid"><![CDATA[stranger danger!]]></entry>
+	
+	<!-- Paranoid: Block Buff -->
+	
+    <entry id="fe_devourer+str_block_buff_paranoid"><![CDATA[go baybyee Endorphinmachine]]></entry>
+    <entry id="fe_devourer+str_block_buff_paranoid"><![CDATA[go baybyee Endorphinmachine]]></entry>
+    <entry id="fe_devourer+str_block_buff_paranoid"><![CDATA[go baybyee Endorphinmachine]]></entry>
+	
+	<!-- Paranoid: Block Camping Skill Performer -->
+	
+    <entry id="fe_devourer+str_block_camping_skill_performer_paranoid"><![CDATA[asvjdasha asjdajsbj  ssss]]></entry>
+    <entry id="fe_devourer+str_block_camping_skill_performer_paranoid"><![CDATA[asvjdasha asjdajsbj  ssss]]></entry>
+    <entry id="fe_devourer+str_block_camping_skill_performer_paranoid"><![CDATA[asvjdasha asjdajsbj  ssss]]></entry>
+	
+	<!-- Paranoid: Block Camping Skill Target -->
+	
+    <entry id="fe_devourer+str_block_camping_skill_target_paranoid"><![CDATA[ENDORPHINMACHINEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE]]></entry>
+    <entry id="fe_devourer+str_block_camping_skill_target_paranoid"><![CDATA[ENDORPHINMACHINEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE]]></entry>
+    <entry id="fe_devourer+str_block_camping_skill_target_paranoid"><![CDATA[ENDORPHINMACHINEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE]]></entry>
+	
+	<!-- Paranoid: Block Retreat -->
+	
+    <entry id="fe_devourer+str_block_combat_retreat_paranoid"><![CDATA[Bro if this works, let me know so I change it to something more appropriate]]></entry>
+    <entry id="fe_devourer+str_block_combat_retreat_paranoid"><![CDATA[Cuz if it doesn't then I'm not wasting my time and juices on this lmao]]></entry>
+
+
+
+	<!-- Selfish -->
+
+    <entry id="fe_devourer+str_afflicted_selfish"><![CDATA[asbdjavsdvasvdasghjh aa]]></entry>
+    <entry id="fe_devourer+str_afflicted_selfish"><![CDATA[asbdjavsdvasvdasghjh aa]]></entry>
+    <entry id="fe_devourer+str_afflicted_selfish"><![CDATA[asbdjavsdvasvdasghjh aa]]></entry>
+
+	<!-- Selfish: Stress -->
+	
+    <entry id="fe_devourer+str_bark_stress_selfish"><![CDATA[asndna snd nkasasdash]]></entry>
+    <entry id="fe_devourer+str_bark_stress_selfish"><![CDATA[asndna snd nkasasdash]]></entry>
+    <entry id="fe_devourer+str_bark_stress_selfish"><![CDATA[asndna snd nkasasdash]]></entry>
+	
+	<!-- Selfish: Move Forward -->
+	
+    <entry id="fe_devourer+str_change_pos_fwd_selfish"><![CDATA[asvdja sbd abs djaskdjasn]]></entry>
+    <entry id="fe_devourer+str_change_pos_fwd_selfish"><![CDATA[asvdja sbd abs djaskdjasn]]></entry>
+    <entry id="fe_devourer+str_change_pos_fwd_selfish"><![CDATA[asvdja sbd abs djaskdjasn]]></entry>
+	
+	<!-- Selfish: Move Back -->
+	
+    <entry id="fe_devourer+str_change_pos_back_selfish"><![CDATA[asdasdasd]]></entry>
+    <entry id="fe_devourer+str_change_pos_back_selfish"><![CDATA[asdasdasd]]></entry>
+    <entry id="fe_devourer+str_change_pos_back_selfish"><![CDATA[asdasdasd]]></entry>
+	
+	<!-- Selfish: Ignore command -->
+	
+    <entry id="fe_devourer+str_ignore_command_selfish"><![CDATA[laklkshhavsdv]]></entry>
+    <entry id="fe_devourer+str_ignore_command_selfish"><![CDATA[laklkshhavsdv]]></entry>
+    <entry id="fe_devourer+str_ignore_command_selfish"><![CDATA[laklkshhavsdv]]></entry>
+	
+	<!-- Selfish: Random Command -->
+	
+    <entry id="fe_devourer+str_random_command_selfish"><![CDATA[ahvdgq fsvddav asasewq]]></entry>
+    <entry id="fe_devourer+str_random_command_selfish"><![CDATA[ahvdgq fsvddav asasewq]]></entry>
+    <entry id="fe_devourer+str_random_command_selfish"><![CDATA[ahvdgq fsvddav asasewq]]></entry>
+	
+	<!-- Selfish: Camp Stress -->
+	
+    <entry id="fe_devourer+str_bark_stress_camp_selfish"><![CDATA[i hate affliction barks i hate them i hate them i hate-]]></entry>
+    <entry id="fe_devourer+str_bark_stress_camp_selfish"><![CDATA[i hate affliction barks i hate them i hate them i hate-]]></entry>
+    <entry id="fe_devourer+str_bark_stress_camp_selfish"><![CDATA[i hate affliction barks i hate them i hate them i hate-]]></entry>
+	
+	<!-- Selfish: Self was hit by an enemy -->
+	
+    <entry id="fe_devourer+str_comment_self_hit_selfish"><![CDATA[wao]]></entry>
+    <entry id="fe_devourer+str_comment_self_hit_selfish"><![CDATA[wao]]></entry>
+	
+	<!-- Selfish: Ally attack hit -->
+
+    <entry id="fe_devourer+str_comment_ally_attack_hit_selfish"><![CDATA[aaaaaaaaaaaaaaa]]></entry>
+    <entry id="fe_devourer+str_comment_ally_attack_hit_selfish"><![CDATA[aaaaaaaaaaaaaaa]]></entry>
+	
+	<!-- Selfish: Ally Attack Missed -->
+	
+    <entry id="fe_devourer+str_comment_ally_attack_missed_selfish"><![CDATA[Incredible, even a child could do better.]]></entry>
+    <entry id="fe_devourer+str_comment_ally_attack_missed_selfish"><![CDATA[Heh, who taught you how to fight? A drunk?]]></entry>
+	
+	<!-- Selfish: Block Camping Skill Performer -->
+	
+    <entry id="fe_devourer+str_block_camping_skill_performer_selfish"><![CDATA[skiyatttt]]></entry>
+    <entry id="fe_devourer+str_block_camping_skill_performer_selfish"><![CDATA[skiyatttt]]></entry>
+    <entry id="fe_devourer+str_block_camping_skill_performer_selfish"><![CDATA[skiyatttt]]></entry>
+
+	<!-- VIRTUED -->
+
+
+	<!-- Courageous -->
+	
+    <entry id="fe_devourer+str_virtued_courageous"><![CDATA[i should be sleeping... i made plans tomorrow]]></entry>
+    <entry id="fe_devourer+str_virtued_courageous"><![CDATA[i should be sleeping... i made plans tomorrow]]></entry>
+	
+	<!-- Courageous: heal party -->
+	
+    <entry id="fe_devourer+str_stress_heal_party_courageous"><![CDATA[You know i should really stop typing long placeholders like these.... nahhhh lmao]]></entry>
+    <entry id="fe_devourer+str_stress_heal_party_courageous"><![CDATA[You know i should really stop typing long placeholders like these.... nahhhh lmao]]></entry>
+	
+
+	<!-- Focused -->
+
+    <entry id="fe_devourer+str_virtued_focused"><![CDATA[Also try Minecraft!]]></entry>
+    <entry id="fe_devourer+str_virtued_focused"><![CDATA[Also try Minecraft!]]></entry>
+	
+	
+	<!-- Focused: buff other -->
+	
+    <entry id="fe_devourer+str_buff_random_party_member_focused"><![CDATA[Endorphinmachine]]></entry>
+    <entry id="fe_devourer+str_buff_random_party_member_focused"><![CDATA[Endorphinmachine]]></entry>
+
+	
+	<!-- Powerful -->
+	
+    <entry id="fe_devourer+str_virtued_powerful"><![CDATA[Thank god im not writing these]]></entry>
+    <entry id="fe_devourer+str_virtued_powerful"><![CDATA[Thank god im not writing these]]></entry>
+	
+	<!-- Powerful: buff party -->
+
+    <entry id="fe_devourer+str_buff_party_powerful"><![CDATA[WHY ARE THERE SO MANY FYCKIGN BARKS]]></entry>
+    <entry id="fe_devourer+str_buff_party_powerful"><![CDATA[WHY ARE THERE SO MANY FYCKIGN BARKS]]></entry>
+	
+
+	<!-- Stalwart -->
+
+    <entry id="fe_devourer+str_virtued_stalwart"><![CDATA[yep, barks again]]></entry>
+    <entry id="fe_devourer+str_virtued_stalwart"><![CDATA[yep, barks again]]></entry>
+	
+	<!-- stalwart: Heal Self -->
+	
+    <entry id="fe_devourer+str_stress_heal_self_stalwart"><![CDATA[More barks, never enough barks]]></entry>
+    <entry id="fe_devourer+str_stress_heal_self_stalwart"><![CDATA[More barks, never enough barks]]></entry>
+
+
+	<!-- Vigorous -->
+	
+    <entry id="fe_devourer+str_virtued_vigorous"><![CDATA[abc]]></entry>
+    <entry id="fe_devourer+str_virtued_vigorous"><![CDATA[abc]]></entry>
+	
+	<!-- Vigorous: Heal Self -->
+
+    <entry id="fe_devourer+str_heal_self_vigorous"><![CDATA[kyaaaa]]></entry>
+    <entry id="fe_devourer+str_heal_self_vigorous"><![CDATA[kyaaaa]]></entry>
+	
+	
+	<!-- Party Names -->
+	<entry id="party_name_1fede"><![CDATA[Scary Monsters (And Super Creeps)]]></entry>
+
+	<!-- Crimson Court -->
+	
+	<!-- Prisoner -->
+	<entry id="fe_devourer+str_prisoner_help_me"><![CDATA[Bruh ive been locked here]]></entry>
+    <entry id="fe_devourer+str_prisoner_rescue_thanks"><![CDATA[pogchamp I am freeeeeee]]></entry>
+	
+    <!--Death by Wasting-->
+	<entry id="fe_devourer+quirk_evolution_death_disease_vampire_wasting"><![CDATA[*Dies from death*... and a lack of blood btw]]></entry>
+
+
+
+	<!-- Monster Attacks -->
+	<entry id="fe_devourer+str_monster_user_selected_targets_kill_pill"><![CDATA[ah fuck, ah cant believe you'd do this Charles.]]></entry>
+	
+	<entry id="fe_devourer+str_monster_attack_unholy_smite"><![CDATA[kinda cringe bro]]></entry>
+    <entry id="fe_devourer+str_monster_attack_unholy_judgement"><![CDATA[AoE stress? dead ass?]]></entry>
+    <entry id="fe_devourer+str_monster_attack_unholy_curse"><![CDATA[Get a better gimmick]]></entry>
+    
+	<entry id="fe_devourer+str_monster_attack_obliterate_enraged"><![CDATA[Yummers Pig Meat]]></entry>
+	<entry id="fe_devourer+str_monster_attack_obliterate_enraged"><![CDATA[Yummers Pig Meat]]></entry>
+
+
+	<!-- Cross Mod barks -->
+	<entry id="fe_devourer+React_To_Kill_By_Fan_Favourite"><![CDATA[Good shot! Can you teach me how to do that?]]></entry>	
+	<entry id="fe_devourer+React_To_Kill_By_Fan_Favourite"><![CDATA[Now that's a clean kill!]]></entry>
+	<entry id="fe_devourer+Fan_Favourite_Bark_On_End"><![CDATA[Again! Again!]]></entry>	
+	<entry id="fe_devourer+Fan_Favourite_Bark_On_End"><![CDATA[Over already? But the gunshow has just begun!]]></entry>
+	
+	<entry id="fe_devourer+str_change_pos_fwd_eager_to_fight"><![CDATA[Outta the way! Her highness is coming through!]]></entry>
+	<entry id="fe_devourer+str_change_pos_fwd_eager_to_fight"><![CDATA[I can't very well strike them this far back!]]></entry>
+	<entry id="fe_devourer+str_change_pos_back_quick_to_run"><![CDATA[I need to reload my guns!... Yes! All of them!]]></entry>
+	<entry id="fe_devourer+str_change_pos_back_quick_to_run"><![CDATA[Your princess demands your valiant protection!]]></entry>
+	
+	<entry id="fe_devourer+str_buff_random_party_member_inspiring_ship"><![CDATA[You and I? We can win this, together!]]></entry>
+	<entry id="fe_devourer+str_comment_ally_hit_inspiring_ship"><![CDATA[You are tougher than you look!]]></entry>
+	<entry id="fe_devourer+str_comment_ally_attack_missed_inspiring_ship"><![CDATA[You'll get 'em next time, here, let me help!]]></entry>  
+	<entry id="fe_devourer+str_si_tofu_attack"><![CDATA[This is the part where you shoot a young child]]></entry>
+	<entry id="fe_devourer+str_si_tofu_attack"><![CDATA[Should you really contemplate on the morality of shooting children? Eh...]]></entry>
+
+    </language>
+</root>
