@@ -515,9 +515,9 @@ Retch]]></entry>
 	
 	<!-- Fearful: Ally was hit by an enemy -->
 	
-    <entry id="fe_devourer+str_comment_ally_hit_fearful"><![CDATA[NO!... God, We're runniing out of time...]]></entry>=
-    <entry id="fe_devourer+str_comment_ally_hit_fearful"><![CDATA[Curse all gods! All of them!]]></entry>=
-    <entry id="fe_devourer+str_comment_ally_hit_fearful"><![CDATA[That blood... it shouldn't be ours that's spilled...]]></entry>=
+    <entry id="fe_devourer+str_comment_ally_hit_fearful"><![CDATA[NO!... God, We're runniing out of time...]]></entry>
+    <entry id="fe_devourer+str_comment_ally_hit_fearful"><![CDATA[Curse all gods! All of them!]]></entry>
+    <entry id="fe_devourer+str_comment_ally_hit_fearful"><![CDATA[That blood... it shouldn't be ours that's spilled...]]></entry>
 	
 	<!-- Fearful: Ally Dodged -->
 	
