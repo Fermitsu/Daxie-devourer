@@ -86,7 +86,7 @@
     <entry id="combat_skill_name_fe_devourer_fe_de_artery"><![CDATA[Artery Pull]]></entry>
     <entry id="combat_skill_name_fe_devourer_fe_de_retch"><![CDATA[ {colour_start|healhp}¤ ¤ ¤ ¤{colour_end}
 Retch]]></entry>
-    <entry id="combat_skill_name_fe_devourer_fe_de_surv"><![CDATA[Survival Above all]]></entry>
+    <entry id="combat_skill_name_fe_devourer_fe_de_surv"><![CDATA[Toxichunt]]></entry>
 
     <entry id="upgrade_tree_name_fe_devourer.fe_de_feast"><![CDATA[Feast]]></entry>
     <entry id="upgrade_tree_name_fe_devourer.fe_de_nox"><![CDATA[Noxious Gas]]></entry>
@@ -95,7 +95,7 @@ Retch]]></entry>
     <entry id="upgrade_tree_name_fe_devourer.fe_de_artery"><![CDATA[Artery Pull]]></entry>
     <entry id="upgrade_tree_name_fe_devourer.fe_de_retch"><![CDATA[ {colour_start|healhp}¤ ¤ ¤ ¤{colour_end}
 Retch]]></entry>
-    <entry id="upgrade_tree_name_fe_devourer.fe_de_surv"><![CDATA[Survival Above all]]></entry>
+    <entry id="upgrade_tree_name_fe_devourer.fe_de_surv"><![CDATA[Toxichunt]]></entry>
 
 	<!--Techincal Tooltips - Skills -->
 	<entry id="buff_stat_tooltip_upgrade_discount_fede_feast_heal_TT5"><![CDATA[{colour_start|healhp}Heal{colour_end} 20%% max HP vs {colour_start|bleed}Bleeding{colour_end} / {colour_start|blight}Blight{colour_end}]]></entry>
@@ -114,8 +114,8 @@ Retch]]></entry>
 
 	<!-- Town Events -->
 
-	<entry id="town_event_title_fe_devourer_first"><![CDATA[Woodland Murmurs]]></entry>
-	<entry id="town_event_description_fe_devourer_first"><![CDATA[filler abt event or smt lmao]]></entry>
+	<entry id="town_event_title_fe_devourer_recruit"><![CDATA[Woodland Murmurs]]></entry>
+	<entry id="town_event_description_fe_devourer_recruit"><![CDATA[filler abt event or smt lmao]]></entry>
 
 	<!-- Trinkets -->
 
@@ -142,9 +142,9 @@ Retch]]></entry>
 	
 	<!-- Camping Skill Barks -->
 	<entry id="camping_skill_name_fede_feeling"><![CDATA[RESOLVE PENT UP FEELINGS]]></entry>
-	<entry id="camping_skill_name_fede_hunger"><![CDATA[SATIATE HUNGER]]></entry>
+	<entry id="camping_skill_name_fede_hunger"><![CDATA[ELDRITCH RUNE ENHANCEMENT]]></entry>
 	<entry id="camping_skill_name_fede_phero"><![CDATA[ALLURING PHEROMONES]]></entry>
-	<entry id="camping_skill_name_fede_recycle"><![CDATA[RECYLCLE REGURGITATE]]></entry>
+	<entry id="camping_skill_name_fede_recycle"><![CDATA[RECYCLE REGURGITATE]]></entry>
 	
 	<entry id="camping_skill_effect_loot_fede_recycle_loot"><![CDATA[Produces 5-8 Food]]></entry>
 

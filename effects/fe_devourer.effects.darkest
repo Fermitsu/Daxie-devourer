@@ -78,7 +78,7 @@ effect: .name "fede_retch_heal_2d" .target "performer" .chance 100% .buff_ids "f
 
 effect: .name "fede_retch_heal_dd" .target "performer" .chance 100% .buff_ids "fede_retch_heal_dd" .on_hit true .on_miss false .skill_instant true .has_description false
 
-effect: .name "fede_retch_corpse" .target "target_enemy_group" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss true .queue false .can_apply_on_death true .has_description false
+effect: .name "fede_retch_corpse" .target "target_enemy_group" .chance 100% .kill_enemy_types "corpse" .on_hit true .on_miss true .queue false .can_apply_on_death true .has_description false
 effect: .name "fede_retch_stress" .target "target" .chance 100% .stress 6 .on_hit true .on_miss false
 effect: .name "fede_retch_tooltip_1" .target "performer" .chance 100%  .on_hit true .on_miss false .buff_ids"fede_retch_heal_tt_corpse1" .skill_instant true
 effect: .name "fede_retch_tooltip_2" .target "performer" .chance 100%  .on_hit true .on_miss false .buff_ids"fede_retch_heal_tt_corpse2" .skill_instant true
@@ -86,13 +86,9 @@ effect: .name "fede_retch_tooltip_3" .target "performer" .chance 100%  .on_hit t
 effect: .name "fede_retch_tooltip_4" .target "performer" .chance 100%  .on_hit true .on_miss false .buff_ids"fede_retch_heal_tt_corpse4" .skill_instant true
 
 //Survival Above All
-effect: .name "fede_surv_regen_1" 	.target "performer" .chance 100%  .dotHpHeal 1 .duration 2 .on_hit true .on_miss false
-effect: .name "fede_surv_regen_2" 	.target "performer" .chance 100%  .dotHpHeal 2 .duration 2 .on_hit true .on_miss false
-effect: .name "fede_surv_regen_3" 	.target "performer" .chance 100%  .dotHpHeal 2 .duration 3 .on_hit true .on_miss false
-
-effect: .name "fede_surv_buffs_1" 	.target "target" .chance 100%  .combat_stat_buff 1 .protection_rating_add 0.17 .defense_rating_add 0.06 .duration 3 .on_hit true .on_miss false
-effect: .name "fede_surv_buffs_2" 	.target "target" .chance 100%  .combat_stat_buff 1 .protection_rating_add 0.19 .defense_rating_add 0.07 .duration 3 .on_hit true .on_miss false
-effect: .name "fede_surv_buffs_3" 	.target "target" .chance 100%  .combat_stat_buff 1 .protection_rating_add 0.21 .defense_rating_add 0.08 .duration 3 .on_hit true .on_miss false
-effect: .name "fede_surv_buffs_4" 	.target "target" .chance 100%  .combat_stat_buff 1 .protection_rating_add 0.23 .defense_rating_add 0.09 .duration 3 .on_hit true .on_miss false
-effect: .name "fede_surv_buffs_5" 	.target "target" .chance 100%  .combat_stat_buff 1 .protection_rating_add 0.25 .defense_rating_add 0.1  .duration 3 .on_hit true .on_miss false
+effect: .name "fede_toxic_blight_1" 	.target "target" .chance 100%  .dotPoison 3 .duration 2 .on_hit true .on_miss false
+effect: .name "fede_toxic_blight_2" 	.target "target" .chance 110%  .dotPoison 4 .duration 2 .on_hit true .on_miss false
+effect: .name "fede_toxic_blight_3" 	.target "target" .chance 120%  .dotPoison 4 .duration 3 .on_hit true .on_miss false
+effect: .name "fede_toxic_blight_4" 	.target "target" .chance 130%  .dotPoison 5 .duration 3 .on_hit true .on_miss false
+effect: .name "fede_toxic_blight_5" 	.target "target" .chance 134%  .dotPoison 6 .duration 3 .on_hit true .on_miss false
 
