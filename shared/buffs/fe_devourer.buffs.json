@@ -1,32 +1,6 @@
 {
    "buffs":
    [	
-		{
-         "id" : "IM_AN_EXAMPLE_BUFF",
-         "stat_type" : "",
-         "stat_sub_type" : "",
-         "amount" : 0,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-    },
-	{
-         "id" : "FIND_ME_IN_THE_BUFFS_FILE",
-         "stat_type" : "",
-         "stat_sub_type" : "",
-         "amount" : 0,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-    },
 	{
          "id" : "fede_feast_no_heal_blight",
          "stat_type" : "hp_heal_percent",
@@ -290,6 +264,45 @@
          "rule_data" : {
             "float" : 0.01,
             "string" : ""
+         }
+    },
+	{
+         "id" : "fede_nox_spd_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : -2,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "poisoned"
+         }
+    },
+	{
+         "id" : "fede_nox_spd_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : -3,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "poisoned"
+         }
+    },
+	{
+         "id" : "fede_nox_spd_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : -4,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "poisoned"
          }
     }
    ]  

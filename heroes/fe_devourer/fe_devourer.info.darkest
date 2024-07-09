@@ -15,7 +15,7 @@ armour: .name "fe_devourer_armour_3" .def 28% .prot 0 .hp 35 .spd 0 .upgradeRequ
 armour: .name "fe_devourer_armour_4" .def 33% .prot 0 .hp 40 .spd 0 .upgradeRequirementCode 3
 
 //Feast - S0hpr (thank you sherin~)
-combat_skill: .id "fe_de_feast" .level 0 .type "melee" .atk 85%  .dmg -25% .crit 5% .launch 21 .target 12 .can_miss false .can_be_riposted false .effect "fede_feast_hunger_ttSkill_1e" "fede_feast_hunger_ttSkill_1" "fede_feast_hunger_ttSkill_2" "fede_feast_hunger_steal" "fede_feast_hunger" "fede_feast_hunger_tt" .generation_guaranteed true
+combat_skill: .id "fe_de_feast" .level 0 .type "melee" .atk 85%  .dmg -25% .crit 5% .launch 21 .target 12 .can_miss false .can_be_riposted false .effect "fede_feast_hunger_ttSkill_1e" "fede_feast_hunger_ttSkill_1" "fede_feast_hunger_ttSkill_2" "fede_feast_hunger_steal" "fede_feast_hunger" "fede_feast_hunger_tt"
 combat_skill: .id "fe_de_feast" .level 1 .type "melee" .atk 90%  .dmg -25% .crit 6% .launch 21 .target 12 .can_miss false .can_be_riposted false .effect "fede_feast_hunger_ttSkill_1e" "fede_feast_hunger_ttSkill_1" "fede_feast_hunger_ttSkill_2" "fede_feast_hunger_steal" "fede_feast_hunger" "fede_feast_hunger_tt"
 combat_skill: .id "fe_de_feast" .level 2 .type "melee" .atk 95%  .dmg -25% .crit 7% .launch 21 .target 12 .can_miss false .can_be_riposted false .effect "fede_feast_hunger_ttSkill_1e" "fede_feast_hunger_ttSkill_1" "fede_feast_hunger_ttSkill_2" "fede_feast_hunger_steal" "fede_feast_hunger" "fede_feast_hunger_tt"
 combat_skill: .id "fe_de_feast" .level 3 .type "melee" .atk 100% .dmg -25% .crit 8% .launch 21 .target 12 .can_miss false .can_be_riposted false .effect "fede_feast_hunger_ttSkill_1e" "fede_feast_hunger_ttSkill_1" "fede_feast_hunger_ttSkill_2" "fede_feast_hunger_steal" "fede_feast_hunger" "fede_feast_hunger_tt"
@@ -60,7 +60,7 @@ combat_skill: .id "fe_de_nox" .valid_modes fe_de_placeholder3 .fe_de_placeholder
 combat_skill: .id "fe_de_nox" .valid_modes fe_de_placeholder4 .fe_de_placeholder4_effects
 
 //Cleave Heart
-combat_skill: .id "fe_de_cleave" .level 0 .type "melee" .atk 95%  .dmg -40% .crit 5% .launch 12 .target ~12 .is_crit_valid True  .effect  
+combat_skill: .id "fe_de_cleave" .level 0 .type "melee" .atk 95%  .dmg -40% .crit 5% .launch 12 .target ~12 .is_crit_valid True  .effect  .generation_guaranteed true
 combat_skill: .id "fe_de_cleave" .level 1 .type "melee" .atk 100% .dmg -40% .crit 6% .launch 12 .target ~12 .is_crit_valid True  .effect  
 combat_skill: .id "fe_de_cleave" .level 2 .type "melee" .atk 105% .dmg -40% .crit 7% .launch 12 .target ~12 .is_crit_valid True  .effect  
 combat_skill: .id "fe_de_cleave" .level 3 .type "melee" .atk 110% .dmg -40% .crit 8% .launch 12 .target ~12 .is_crit_valid True  .effect  

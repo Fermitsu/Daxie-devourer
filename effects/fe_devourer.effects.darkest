@@ -21,11 +21,11 @@ effect: .name "fede_feast_hunger_ttSkill_1e" .target "performer" .chance 100%  .
 effect: .name "fede_feast_hunger_ttSkill_2" .target "performer" .chance 100%  .on_hit true .on_miss false .buff_ids "fede_feast_hunger_tt_s" "fede_feast_hunger_tt_s2" .skill_instant true
 
 //Noxious Gas
-effect: .name "fede_nox_debuff_SPD_1" 	.target "target" .chance 100%  .combat_stat_buff 1 .speed_rating_add -2 .keyStatus "poisoned" .duration 3 .on_hit true .on_miss false
-effect: .name "fede_nox_debuff_SPD_2" 	.target "target" .chance 110%  .combat_stat_buff 1 .speed_rating_add -2 .keyStatus "poisoned" .duration 3 .on_hit true .on_miss false
-effect: .name "fede_nox_debuff_SPD_3" 	.target "target" .chance 120%  .combat_stat_buff 1 .speed_rating_add -3 .keyStatus "poisoned" .duration 3 .on_hit true .on_miss false
-effect: .name "fede_nox_debuff_SPD_4" 	.target "target" .chance 130%  .combat_stat_buff 1 .speed_rating_add -3 .keyStatus "poisoned" .duration 3 .on_hit true .on_miss false
-effect: .name "fede_nox_debuff_SPD_5" 	.target "target" .chance 140%  .combat_stat_buff 1 .speed_rating_add -4 .keyStatus "poisoned" .duration 3 .on_hit true .on_miss false
+effect: .name "fede_nox_debuff_SPD_1" 	.target "target" .chance 100%  .buff_ids "fede_nox_spd_1" .duration 3 .on_hit true .on_miss false
+effect: .name "fede_nox_debuff_SPD_2" 	.target "target" .chance 110%  .buff_ids "fede_nox_spd_1" .duration 3 .on_hit true .on_miss false
+effect: .name "fede_nox_debuff_SPD_3" 	.target "target" .chance 120%  .buff_ids "fede_nox_spd_2" .duration 3 .on_hit true .on_miss false
+effect: .name "fede_nox_debuff_SPD_4" 	.target "target" .chance 130%  .buff_ids "fede_nox_spd_2" .duration 3 .on_hit true .on_miss false
+effect: .name "fede_nox_debuff_SPD_5" 	.target "target" .chance 140%  .buff_ids "fede_nox_spd_3" .duration 3 .on_hit true .on_miss false
 
 effect: .name "fede_nox_chemical_warfare_1" 	.target "target" .chance 100%  .dotPoison 1 .duration 2 .on_hit true .on_miss false
 effect: .name "fede_nox_chemical_warfare_2" 	.target "target" .chance 110%  .dotPoison 1 .duration 3 .on_hit true .on_miss false
