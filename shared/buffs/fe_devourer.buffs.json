@@ -272,7 +272,7 @@
          "stat_sub_type" : "speed_rating",
          "amount" : -2,
          "remove_if_not_active" : false,
-         "rule_type" : "actorStatus",
+         "rule_type" : "is_actor_status",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
@@ -285,7 +285,7 @@
          "stat_sub_type" : "speed_rating",
          "amount" : -3,
          "remove_if_not_active" : false,
-         "rule_type" : "actorStatus",
+         "rule_type" : "is_actor_status",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
@@ -298,7 +298,7 @@
          "stat_sub_type" : "speed_rating",
          "amount" : -4,
          "remove_if_not_active" : false,
-         "rule_type" : "actorStatus",
+         "rule_type" : "is_actor_status",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
