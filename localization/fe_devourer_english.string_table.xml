@@ -110,7 +110,7 @@ Retch]]></entry>
  	 <entry id="buff_stat_tooltip_upgrade_discount_fede_retch_heal_TT1"><![CDATA[+1{colour_start|healhp} Healing{colour_end} Done per Corpse]]></entry>
  	 <entry id="buff_stat_tooltip_upgrade_discount_fede_retch_heal_TT2"><![CDATA[+2{colour_start|healhp} Healing{colour_end} Done per Corpse]]></entry>
  	 <entry id="buff_stat_tooltip_upgrade_discount_fede_retch_heal_TT3"><![CDATA[+100%% {colour_start|healhp}Healing{colour_end} Done vs {colour_start|deathdoor}Death's Door{colour_end}]]></entry>
- 	 <entry id="buff_stat_tooltip_upgrade_discount_fede_retch_heal_TT4"><![CDATA[Clear all Corpses {colour_start|fede_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end} ]]></entry>
+ 	 <entry id="buff_stat_tooltip_upgrade_discount_fede_retch_heal_TT4"><![CDATA[   Clear all Corpses {colour_start|fede_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end} ]]></entry>
 
 	<!-- Town Events -->
 
@@ -118,6 +118,8 @@ Retch]]></entry>
 	<entry id="town_event_description_fe_devourer_recruit"><![CDATA[filler abt event or smt lmao]]></entry>
 
 	<!-- Trinkets -->
+	<entry id="str_inventory_title_gemfede_gem"><![CDATA[Crystallized Remains]]></entry>
+	<entry id="str_inventory_description_gemfede_gem"><![CDATA["Ain't edible... but at least it's worth something."]]></entry>
 
 	<!-- Equipment -->
 
@@ -146,7 +148,8 @@ Retch]]></entry>
 	<entry id="camping_skill_name_fede_phero"><![CDATA[ALLURING PHEROMONES]]></entry>
 	<entry id="camping_skill_name_fede_recycle"><![CDATA[RECYCLE REGURGITATE]]></entry>
 	
-	<entry id="camping_skill_effect_loot_fede_recycle_loot"><![CDATA[Produces 5-8 Food]]></entry>
+	<entry id="camping_skill_effect_loot_fede_recycle_loot"><![CDATA[Produces 5-8 Food
+	Small chance to produce 0-3 Crystallized Remains]]></entry>
 
 	<entry id="fe_devourer+str_bark_encourage"><![CDATA[You fight like an animal.]]></entry>
 	<entry id="fe_devourer+str_bark_encourage"><![CDATA[We all have demons to fight, so let's give our all.]]></entry>
@@ -160,21 +163,21 @@ Retch]]></entry>
 	<entry id="fe_devourer+str_bark_pep_talk"><![CDATA[There will be no meat left on their bones.]]></entry>
 	<entry id="fe_devourer+str_bark_pep_talk"><![CDATA[The light of the moon will reflect in their blood!]]></entry>
 	
-	<entry id="str_bark_fe_devourer_fede_feeling"><![CDATA[I gotta go on a walk. Don't follow.]]></entry>
-	<entry id="str_bark_fe_devourer_fede_feeling"><![CDATA[This is too cramped, need to stretch my legs]]></entry>
-	<entry id="str_bark_fe_devourer_fede_feeling"><![CDATA[*Sniff Sniff* Give me moment I smell blood]]></entry>
+	<entry id="str_bark_fede_feeling"><![CDATA[I gotta go on a walk. Don't follow.]]></entry>
+	<entry id="str_bark_fede_feeling"><![CDATA[This is too cramped, need to stretch my legs]]></entry>
+	<entry id="str_bark_fede_feeling"><![CDATA[*Sniff Sniff* Give me moment I smell blood]]></entry>
 	
-	<entry id="str_bark_fe_devourer_fede_hunger"><![CDATA[What do you mean bones are not edible?]]></entry>
-	<entry id="str_bark_fe_devourer_fede_hunger"><![CDATA[Leaving so much scraps, what is wrong with you all]]></entry>
-	<entry id="str_bark_fe_devourer_fede_hunger"><![CDATA[If you won't eat it, I WILL]]></entry>
+	<entry id="str_bark_fede_hunger"><![CDATA[What do you mean bones are not edible?]]></entry>
+	<entry id="str_bark_fede_hunger"><![CDATA[Leaving so much scraps, what is wrong with you all]]></entry>
+	<entry id="str_bark_fede_hunger"><![CDATA[If you won't eat it, I WILL]]></entry>
 	
-	<entry id="str_bark_fe_devourer_fede_phero"><![CDATA[*click* *click* *click*]]></entry>
-	<entry id="str_bark_fe_devourer_fede_phero"><![CDATA[just take a deep breath you all, it isn't poison]]></entry>
-	<entry id="str_bark_fe_devourer_fede_phero"><![CDATA[Feeling better? Thought so.]]></entry>
+	<entry id="str_bark_fede_phero"><![CDATA[*click* *click* *click*]]></entry>
+	<entry id="str_bark_fede_phero"><![CDATA[just take a deep breath you all, it isn't poison]]></entry>
+	<entry id="str_bark_fede_phero"><![CDATA[Feeling better? Thought so.]]></entry>
 	
-	<entry id="str_bark_fe_devourer_fede_recycle"><![CDATA[*Glugh* *Ourp* uhhn I better not see any of this wasted.]]></entry>
-	<entry id="str_bark_fe_devourer_fede_recycle"><![CDATA[*Bwouuurrrp* mhn now Feas.t]]></entry>
-	<entry id="str_bark_fe_devourer_fede_recycle"><![CDATA[Hmn... *urp* Dinner ready.]]></entry>
+	<entry id="str_bark_fede_recycle"><![CDATA[*Glugh* *Ourp* uhhn I better not see any of this wasted.]]></entry>
+	<entry id="str_bark_fede_recycle"><![CDATA[*Bwouuurrrp* mhn now Feast.]]></entry>
+	<entry id="str_bark_fede_recycle"><![CDATA[Hmn... *urp* Dinner ready.]]></entry>
 	
 	<!-- Crit Barks -->
 			

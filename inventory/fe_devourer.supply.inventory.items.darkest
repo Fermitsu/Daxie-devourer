@@ -1,0 +1,1 @@
+inventory_item:	.type "gem" .id "fede_gem" .base_stack_limit 8 .can_modify_stack_limit false .purchase_gold_value 0 .sell_gold_value 1200
